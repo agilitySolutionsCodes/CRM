@@ -1,0 +1,8 @@
+C:\Projetos\crm-web\Desenv\Fontes\bin\Orcamento.dll
+C:\Projetos\crm-web\Desenv\Fontes\bin\Orcamento.XmlSerializers.dll
+C:\Projetos\crm-web\Desenv\Fontes\bin\Orcamento.xml
+C:\Projetos\crm-web\Desenv\Fontes\obj\Release\Orcamento.Resources.resources
+C:\Projetos\crm-web\Desenv\Fontes\obj\Release\Orcamento.vbproj.GenerateResource.Cache
+C:\Projetos\crm-web\Desenv\Fontes\obj\Release\Orcamento.dll
+C:\Projetos\crm-web\Desenv\Fontes\obj\Release\Orcamento.xml
+C:\Projetos\crm-web\Desenv\Fontes\obj\Release\Orcamento.XmlSerializers.dll

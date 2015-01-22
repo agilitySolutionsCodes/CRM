@@ -1,0 +1,10 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="SubMaster.master.vb" Inherits="Orcamento.SubMaster" 
+MasterPageFile="MasterPage.Master"  %>
+
+<%@ Register src="componentes/controles/BarraUsuario.ascx" tagname="BarraUsuario" tagprefix="uc1" %>
+
+<asp:Content ID="Principal" ContentPlaceHolderID="cMaster" Runat="Server">    
+    <uc1:BarraUsuario ID="oBarraUsuario" runat="server" />
+    <asp:ContentPlaceHolder ID="SubMaster" runat="server">        
+    </asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,36 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPage.master.vb" Inherits="Orcamento.MasterPage" Explicit="true" Strict="true" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title>Intermed - CRM Web</title>
+    <script language="javascript" type="text/javascript" src="include.js">
+    </script>
+<script type="text/javascript">
+    function stopRKey(evt) {
+        var evt = (evt) ? evt : ((event) ? event : null);
+        var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+        if ((evt.keyCode == 13) && (node.type == "text")) { return false; }
+    }
+    document.onkeypress = stopRKey; 
+</script> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="frmPrincipal" runat="server" class="formulario">
+        <cc1:ToolkitScriptManager ID="oScriptManager" runat="server" EnableScriptGlobalization="True">
+        </cc1:ToolkitScriptManager>
+        <asp:LoginStatus ID="objLogout" runat="server" LoginText="" LogoutText="SAIR" CssClass="Logout" />
+        <asp:HyperLink ID="lnkLogo"  runat="server" CssClass="Logo" ToolTip="Home" Width="220px" Height="55px" NavigateUrl="~/Principal.aspx" />
+        <hr class="LinhaDivisoria" />
+        <asp:ContentPlaceHolder ID="cMaster" runat="server">
+        </asp:ContentPlaceHolder> <br />
+        <hr class="LinhaDivisoria" />
+    </form>
+</body>
+
+</html>

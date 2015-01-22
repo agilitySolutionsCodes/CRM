@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5EA97BC2-2313-456A-8D50-6C8DD9A7E9E8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Orcamento</RootNamespace>
+    <AssemblyName>Orcamento</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>On</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Orcamento.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Orcamento.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Agility\aguarde.gif" />
+    <Content Include="App_Themes\Agility\alerta.png" />
+    <Content Include="App_Themes\Agility\botao.gif" />
+    <Content Include="App_Themes\Agility\carregando3.gif" />
+    <Content Include="App_Themes\Agility\erro.png" />
+    <Content Include="App_Themes\Agility\estilos.css" />
+    <Content Include="App_Themes\Agility\GridView.css" />
+    <Content Include="App_Themes\Agility\informacao.png" />
+    <Content Include="App_Themes\Agility\Logo.png" />
+    <Content Include="App_Themes\Agility\PapelParede.jpg" />
+    <Content Include="App_Themes\Agility\pixel.png" />
+    <Content Include="App_Themes\Agility\search.png" />
+    <Content Include="App_Themes\Agility\UserControls.css" />
+    <Content Include="App_Themes\Intermed\carregando3.gif" />
+    <Content Include="App_Themes\Intermed\Logo.jpg" />
+    <Content Include="componentes\controles\DetalheProduto.ascx" />
+    <Content Include="controlesespecificos\DescricaoDetalhada.ascx" />
+    <Content Include="controlesespecificos\ProdutoBox.ascx" />
+    <Content Include="controlesespecificos\NFBox.ascx" />
+    <Content Include="fotos\100.00058.JPG" />
+    <Content Include="fotos\100.00104G.JPG" />
+    <Content Include="fotos\100.00105G.JPG" />
+    <Content Include="fotos\100.00107G.jpg" />
+    <Content Include="fotos\100.00109G.JPG" />
+    <Content Include="fotos\100.00110G.JPG" />
+    <Content Include="fotos\100.00113G.JPG" />
+    <Content Include="fotos\100.00202.JPG" />
+    <Content Include="fotos\100.11009G.JPG" />
+    <Content Include="fotos\100.15006.png" />
+    <Content Include="fotos\100.15012.png" />
+    <Content Include="fotos\100.19002.png" />
+    <Content Include="fotos\100.19003.png" />
+    <Content Include="fotos\100.20000.png" />
+    <Content Include="fotos\100.21002.png" />
+    <Content Include="fotos\100.21003.png" />
+    <Content Include="fotos\100.22000.png" />
+    <Content Include="fotos\130.01362AG.JPG" />
+    <Content Include="fotos\130.01362G.JPG" />
+    <Content Include="fotos\131.00414.JPG" />
+    <Content Include="fotos\132.00609.JPG" />
+    <Content Include="fotos\134.00000CA.jpg" />
+    <Content Include="fotos\134.00402G.JPG" />
+    <Content Include="fotos\134.00403G.JPG" />
+    <Content Include="fotos\136.00310G.jpg" />
+    <Content Include="fotos\136.00311G.jpg" />
+    <Content Include="fotos\136.00347G.jpg" />
+    <Content Include="fotos\140.00000.jpg" />
+    <Content Include="fotos\140.02100.jpg" />
+    <Content Include="fotos\150.00000P.jpg" />
+    <Content Include="fotos\150.0000P.jpg" />
+    <Content Include="fotos\150.000PG.jpg" />
+    <Content Include="fotos\150.01100.jpg" />
+    <Content Include="fotos\152.00000P.jpg" />
+    <Content Include="fotos\152.000PG.jpg" />
+    <Content Include="fotos\155.00000P.jpg" />
+    <Content Include="fotos\155.000PG.jpg" />
+    <Content Include="fotos\177.00000.jpg" />
+    <Content Include="fotos\177.00000PPT.jpg" />
+    <Content Include="fotos\177.0000PPT.jpg" />
+    <Content Include="fotos\177.01000.JPG" />
+    <Content Include="fotos\177.01100.jpg" />
+    <Content Include="fotos\303.00115.JPG" />
+    <Content Include="fotos\408.00003.JPG" />
+    <Content Include="fotos\408.00030.JPG" />
+    <Content Include="logos\03710247000190.jpg" />
+    <Content Include="logos\04220505000112.jpg" />
+    <Content Include="logos\04562591000141.jpg" />
+    <Content Include="logos\04933239000175.JPG" />
+    <Content Include="logos\05743288000108.jpg" />
+    <Content Include="logos\07112020000101.jpg" />
+    <Content Include="logos\07796330000184.jpg" />
+    <Content Include="logos\08344903000100.jpg" />
+    <Content Include="logos\49520521000169.jpg" />
+    <Content Include="logos\49520521000320.jpg" />
+    <Content Include="logos\91040231000184.JPG" />
+    <Content Include="Logotipos.aspx" />
+    <Content Include="Erro.aspx" />
+    <Content Include="fotos\100.00104.jpg" />
+    <Content Include="fotos\100.00113.jpg" />
+    <Content Include="fotos\100.11009.jpg" />
+    <Content Include="fotos\100.19000.jpg" />
+    <Content Include="fotos\100.21000.jpg" />
+    <Content Include="fotos\130.01362.jpg" />
+    <Content Include="fotos\130.01362A.jpg" />
+    <Content Include="fotos\130.01420.jpg" />
+    <Content Include="fotos\130.01421.jpg" />
+    <Content Include="fotos\131.00313.jpg" />
+    <Content Include="fotos\131.00950.jpg" />
+    <Content Include="fotos\132.00304.jpg" />
+    <Content Include="fotos\134.00000A.jpg" />
+    <Content Include="fotos\134.00070.jpg" />
+    <Content Include="fotos\134.00400.jpg" />
+    <Content Include="fotos\134.00402.jpg" />
+    <Content Include="fotos\134.00403.jpg" />
+    <Content Include="fotos\134.00404.jpg" />
+    <Content Include="fotos\134.00404G.jpg" />
+    <Content Include="fotos\134.00407.jpg" />
+    <Content Include="fotos\136.0010.jpg" />
+    <Content Include="fotos\136.00311.jpg" />
+    <Content Include="fotos\136.00347.jpg" />
+    <Content Include="fotos\138.01000.jpg" />
+    <Content Include="fotos\138.02000.jpg" />
+    <Content Include="fotos\140.00000C.jpg" />
+    <Content Include="fotos\150.00000.jpg" />
+    <Content Include="fotos\150.00550.jpg" />
+    <Content Include="fotos\151.00000CEP3.jpg" />
+    <Content Include="fotos\151.00900.jpg" />
+    <Content Include="fotos\152.0000P.jpg" />
+    <Content Include="fotos\155.0000P.jpg" />
+    <Content Include="fotos\177.0000P.jpg" />
+    <Content Include="fotos\177.00437.jpg" />
+    <Content Include="fotos\177.00734.jpg" />
+    <Content Include="fotos\408.00002.jpg" />
+    <Content Include="fotos\pixel.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="logos\01617634000150.JPG" />
+    <Content Include="logos\05000571000140.JPG" />
+    <Content Include="logos\05316114000169.JPG" />
+    <Content Include="logos\06269451000105.jpg" />
+    <Content Include="logos\07311489000161.jpg" />
+    <Content Include="logos\08026041000169.JPG" />
+    <Content Include="logos\10404338000162.JPG" />
+    <Content Include="logos\10795899000130.JPG" />
+    <Content Include="logos\11619992000156.jpg" />
+    <Content Include="logos\12853727000109.jpg" />
+    <Content Include="logos\41784372000133.jpg" />
+    <Content Include="logos\47018676000176.jpg" />
+    <Content Include="logos\63359863000170.jpg" />
+    <Content Include="logos\68653344000133.JPG" />
+    <Content Include="logos\69229721000174.jpg" />
+    <Content Include="RptProposta.aspx" />
+    <Content Include="Treinamento\Treinamento.html" />
+    <Content Include="Treinamento\Treinamento_media\Treinamento.wmv" />
+    <Content Include="Treinamento\Treinamento_media\Treinamento_player_embed.js" />
+    <Content Include="_old\TestPage.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes\Aplicacao.vb" />
+    <Compile Include="classes\BaseWebUI.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="classes\ItemProposta.vb" />
+    <Compile Include="classes\Proposta.vb" />
+    <Compile Include="classes\Validadores.vb" />
+    <Compile Include="componentes\controles\DetalheProduto.ascx.designer.vb">
+      <DependentUpon>DetalheProduto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="componentes\controles\DetalheProduto.ascx.vb">
+      <DependentUpon>DetalheProduto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controlesespecificos\DescricaoDetalhada.ascx.designer.vb">
+      <DependentUpon>DescricaoDetalhada.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controlesespecificos\DescricaoDetalhada.ascx.vb">
+      <DependentUpon>DescricaoDetalhada.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controlesespecificos\NFBox.ascx.designer.vb">
+      <DependentUpon>NFBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controlesespecificos\NFBox.ascx.vb">
+      <DependentUpon>NFBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controlesespecificos\ProdutoBox.ascx.designer.vb">
+      <DependentUpon>ProdutoBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controlesespecificos\ProdutoBox.ascx.vb">
+      <DependentUpon>ProdutoBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controlesespecificos\StatusPropostaBox.ascx.designer.vb">
+      <DependentUpon>StatusPropostaBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controlesespecificos\StatusPropostaBox.ascx.vb">
+      <DependentUpon>StatusPropostaBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logotipos.aspx.designer.vb">
+      <DependentUpon>Logotipos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logotipos.aspx.vb">
+      <DependentUpon>Logotipos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Erro.aspx.designer.vb">
+      <DependentUpon>Erro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Erro.aspx.vb">
+      <DependentUpon>Erro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="classes\clsSeguranca.vb" />
+    <Compile Include="classes\ctlCondicaoPagamento.vb" />
+    <Compile Include="classes\ctlCliente.vb" />
+    <Compile Include="classes\ctlProduto.vb" />
+    <Compile Include="classes\ctlProposta.vb" />
+    <Compile Include="classes\ctlVendedor.vb" />
+    <Compile Include="classes\RetornoGenerico.vb" />
+    <Compile Include="classes\Usuario.vb" />
+    <Compile Include="classes\Util.vb" />
+    <Compile Include="componentes\controles\AutoHideButton.ascx.designer.vb">
+      <DependentUpon>AutoHideButton.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="componentes\controles\AutoHideButton.ascx.vb">
+      <DependentUpon>AutoHideButton.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="componentes\controles\BarraUsuario.ascx.designer.vb">
+      <DependentUpon>BarraUsuario.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="componentes\controles\BarraUsuario.ascx.vb">
+      <DependentUpon>BarraUsuario.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controlesespecificos\ClienteBox.ascx.designer.vb">
+      <DependentUpon>ClienteBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controlesespecificos\ClienteBox.ascx.vb">
+      <DependentUpon>ClienteBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controlesespecificos\ClienteView.ascx.designer.vb">
+      <DependentUpon>ClienteView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controlesespecificos\ClienteView.ascx.vb">
+      <DependentUpon>ClienteView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="componentes\controles\ConsultaPadrao.ascx.designer.vb">
+      <DependentUpon>ConsultaPadrao.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="componentes\controles\ConsultaPadrao.ascx.vb">
+      <DependentUpon>ConsultaPadrao.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="componentes\controles\DateBox.ascx.designer.vb">
+      <DependentUpon>DateBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="componentes\controles\DateBox.ascx.vb">
+      <DependentUpon>DateBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="componentes\controles\DetalheConsultaPadrao.ascx.designer.vb">
+      <DependentUpon>DetalheConsultaPadrao.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="componentes\controles\DetalheConsultaPadrao.ascx.vb">
+      <DependentUpon>DetalheConsultaPadrao.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="componentes\controles\Mensagem.ascx.designer.vb">
+      <DependentUpon>Mensagem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="componentes\controles\Mensagem.ascx.vb">
+      <DependentUpon>Mensagem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="componentes\controles\NumberBox.ascx.designer.vb">
+      <DependentUpon>NumberBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="componentes\controles\NumberBox.ascx.vb">
+      <DependentUpon>NumberBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controlesespecificos\CondicaoPagamentoView.ascx.designer.vb">
+      <DependentUpon>CondicaoPagamentoView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controlesespecificos\CondicaoPagamentoView.ascx.vb">
+      <DependentUpon>CondicaoPagamentoView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controlesespecificos\ProdutoView.ascx.designer.vb">
+      <DependentUpon>ProdutoView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controlesespecificos\ProdutoView.ascx.vb">
+      <DependentUpon>ProdutoView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controlesespecificos\VendedorBox.ascx.designer.vb">
+      <DependentUpon>VendedorBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controlesespecificos\VendedorBox.ascx.vb">
+      <DependentUpon>VendedorBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controlesespecificos\VendedorView.ascx.designer.vb">
+      <DependentUpon>VendedorView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controlesespecificos\VendedorView.ascx.vb">
+      <DependentUpon>VendedorView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPrint.Master.designer.vb">
+      <DependentUpon>MasterPrint.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPrint.Master.vb">
+      <DependentUpon>MasterPrint.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Principal.aspx.designer.vb">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.aspx.vb">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proposta.aspx.designer.vb">
+      <DependentUpon>Proposta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Proposta.aspx.vb">
+      <DependentUpon>Proposta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RptProposta.aspx.designer.vb">
+      <DependentUpon>RptProposta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RptProposta.aspx.vb">
+      <DependentUpon>RptProposta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubMaster.Master.designer.vb">
+      <DependentUpon>SubMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SubMaster.Master.vb">
+      <DependentUpon>SubMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web References\WSOrcamento\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WSUserAgility\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WSUtilAgility\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="_old\TestPage.aspx.designer.vb">
+      <DependentUpon>TestPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_old\TestPage.aspx.vb">
+      <DependentUpon>TestPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Intermed\aguarde.gif" />
+    <Content Include="App_Themes\Intermed\alerta.png" />
+    <Content Include="App_Themes\Intermed\botao.gif" />
+    <Content Include="App_Themes\Intermed\erro.png" />
+    <Content Include="App_Themes\Intermed\informacao.png" />
+    <Content Include="App_Themes\Intermed\pixel.png" />
+    <Content Include="App_Themes\Intermed\search.png" />
+    <Content Include="componentes\controles\AutoHideButton.ascx" />
+    <Content Include="componentes\controles\BarraUsuario.ascx" />
+    <Content Include="controlesespecificos\ClienteBox.ascx" />
+    <Content Include="controlesespecificos\ClienteView.ascx" />
+    <Content Include="componentes\controles\ConsultaPadrao.ascx" />
+    <Content Include="componentes\controles\DateBox.ascx" />
+    <Content Include="componentes\controles\DetalheConsultaPadrao.ascx" />
+    <Content Include="componentes\controles\Mensagem.ascx" />
+    <Content Include="componentes\controles\NumberBox.ascx" />
+    <Content Include="controlesespecificos\CondicaoPagamentoView.ascx" />
+    <Content Include="controlesespecificos\ProdutoView.ascx" />
+    <Content Include="controlesespecificos\StatusPropostaBox.ascx" />
+    <Content Include="controlesespecificos\VendedorBox.ascx" />
+    <Content Include="controlesespecificos\VendedorView.ascx" />
+    <Content Include="imagens\pixel.png" />
+    <Content Include="App_Themes\Intermed\estilos.css" />
+    <Content Include="App_Themes\Intermed\GridView.css" />
+    <Content Include="App_Themes\Intermed\UserControls.css" />
+    <Content Include="Global.asax" />
+    <Content Include="imagens\confirmar.png" />
+    <Content Include="imagens\desfazer.png" />
+    <Content Include="imagens\Editar.png" />
+    <Content Include="imagens\Excluir.png" />
+    <Content Include="imagens\fechar.jpg" />
+    <Content Include="imagens\Novo.png" />
+    <Content Include="componentes\controles\pixel.png" />
+    <Content Include="imagens\search.png" />
+    <Content Include="imagens\severidade.png" />
+    <Content Include="imagens\wait18trans.gif" />
+    <Content Include="include.js" />
+    <Content Include="MasterPage.Master" />
+    <None Include="fotos\Thumbs.db" />
+    <Content Include="MasterPrint.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\Orcamento On Line Homologação.pubxml" />
+    <None Include="My Project\PublishProfiles\Orcamento On Line Produção.pubxml" />
+    <None Include="My Project\PublishProfiles\Orçamento On Line Agility.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\WSOrcamento\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <Content Include="Web References\WSOrcamento\RETSTRUCT.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\WSOrcamento\WSORCAMENTO.wsdl" />
+    <None Include="Web References\WSUserAgility\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\WSUserAgility\VALIDASTRUCT.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WSUserAgility\WSUSERAGILITY.wsdl" />
+    <None Include="Web References\WSUtilAgility\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\WSUtilAgility\WSUTILAGILITY.wsdl" />
+    <None Include="_old\Proposta.dotx" />
+    <Content Include="Principal.aspx" />
+    <Content Include="Proposta.aspx" />
+    <Content Include="SubMaster.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://10.230.2.42:91/WSORCAMENTO.apw%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WSOrcamento\</RelPath>
+      <UpdateFromURL>http://10.230.2.42:91/WSORCAMENTO.apw%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Orcamento_WSOrcamento_WSORCAMENTO</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://10.230.2.42:91/WSUSERAGILITY.apw%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WSUserAgility\</RelPath>
+      <UpdateFromURL>http://10.230.2.42:91/WSUSERAGILITY.apw%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Orcamento_WSUserAgility_WSUSERAGILITY</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://10.230.2.42:91/WSUTILAGILITY.apw%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WSUtilAgility\</RelPath>
+      <UpdateFromURL>http://10.230.2.42:91/WSUTILAGILITY.apw%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Orcamento_WSUtilAgility_WSUTILAGILITY</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4769</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

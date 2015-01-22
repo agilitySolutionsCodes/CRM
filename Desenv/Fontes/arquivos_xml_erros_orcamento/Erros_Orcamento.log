@@ -1,0 +1,201 @@
+Erro: WEBMEDDYNE - 17/09/2012 14:24 --- Proposta - btnSalvar_Click: Unable to connect to the remote server
+Erro: WEBMEDDYNE - 17/09/2012 14:24 --- Principal - Pesquisar: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+Erro: WEBAGILITY - 18/09/2012 16:40 --- Proposta - btnAlterar_Click: The operation has timed out
+Erro: WEBAGILITY - 19/09/2012 14:49 --- Proposta - btnAlterar_Click: Unable to connect to the remote server
+Erro: WEBAGILITY - 19/09/2012 15:48 --- Proposta - btnAlterar_Click: Unable to connect to the remote server
+Erro: WEBAGILITY - 20/09/2012 15:51 --- Proposta - Page_Load: Column 'lblNumero.Text' does not belong to table .
+Erro: WEBAGILITY - 20/09/2012 15:58 --- Proposta - Page_Load: Specified cast is not valid.
+Erro: WEBAGILITY - 20/09/2012 16:05 --- Proposta - Page_Load: Specified cast is not valid.
+Erro: WEBAGILITY - 20/09/2012 16:25 --- Proposta - Page_Load: Root element is missing.
+Erro: Session nome usuario em branco. - 21/09/2012 11:26 --- Login - objLogin_Authenticate: System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.44.42:8000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICAR(TKNSTRUCT TOKEN) in C:\Projetos\crm-web\Desenv\Fontes\Web References\WSUserAgility\Reference.vb:line 80
+   at Orcamento.clsSeguranca.Autenticar(String sUsername, String sPassword) in C:\Projetos\crm-web\Desenv\Fontes\classes\clsSeguranca.vb:line 112
+   at Orcamento.Login.objLogin_Authenticate(Object sender, AuthenticateEventArgs e) in C:\Projetos\crm-web\Desenv\Fontes\Login.aspx.vb:line 18
+Erro: Session nome usuario em branco. - 21/09/2012 11:27 --- Login - objLogin_Authenticate: System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.44.42:8000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICAR(TKNSTRUCT TOKEN) in C:\Projetos\crm-web\Desenv\Fontes\Web References\WSUserAgility\Reference.vb:line 80
+   at Orcamento.clsSeguranca.Autenticar(String sUsername, String sPassword) in C:\Projetos\crm-web\Desenv\Fontes\classes\clsSeguranca.vb:line 112
+   at Orcamento.Login.objLogin_Authenticate(Object sender, AuthenticateEventArgs e) in C:\Projetos\crm-web\Desenv\Fontes\Login.aspx.vb:line 18
+Erro: Session nome usuario em branco. - 21/09/2012 11:29 --- Login - objLogin_Authenticate: System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.44.42:8000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICAR(TKNSTRUCT TOKEN) in C:\Projetos\crm-web\Desenv\Fontes\Web References\WSUserAgility\Reference.vb:line 80
+   at Orcamento.clsSeguranca.Autenticar(String sUsername, String sPassword) in C:\Projetos\crm-web\Desenv\Fontes\classes\clsSeguranca.vb:line 112
+   at Orcamento.Login.objLogin_Authenticate(Object sender, AuthenticateEventArgs e) in C:\Projetos\crm-web\Desenv\Fontes\Login.aspx.vb:line 18
+Erro: WEBAGILITY - 21/09/2012 11:44 --- Login - objLogin_Authenticate: System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Orcamento.Vendedor.ctlVendedor.SelecionarUsuarioID(String sUsuario) in C:\Projetos\crm-web\Desenv\Fontes\classes\ctlVendedor.vb:line 21
+   at Orcamento.Login.objLogin_Authenticate(Object sender, AuthenticateEventArgs e) in C:\Projetos\crm-web\Desenv\Fontes\Login.aspx.vb:line 23
+Erro: WEBAGILITY - 21/09/2012 11:44 --- Login - objLogin_Authenticate: System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Orcamento.Vendedor.ctlVendedor.SelecionarUsuarioID(String sUsuario) in C:\Projetos\crm-web\Desenv\Fontes\classes\ctlVendedor.vb:line 21
+   at Orcamento.Login.objLogin_Authenticate(Object sender, AuthenticateEventArgs e) in C:\Projetos\crm-web\Desenv\Fontes\Login.aspx.vb:line 23
+Erro: WEBMEDICALDYNE - 08/10/2012 13:59 --- Proposta - Page_Load: A proposta '003857' não foi localizada.
+Erro: WEBINTERHELP - 08/10/2012 14:16 --- Proposta - Page_Load: A proposta '003889' não foi localizada.
+Erro: WEBAGILITY - 01/04/2013 15:33 --- Proposta - Page_Load: Tempo limite expirou. O tempo limite esgotou antes da conclusão da operação ou o servidor não está respondendo.
+Erro: WEBAGILITY - 01/04/2013 15:35 --- Proposta - Page_Load: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+Erro: WEBAGILITY - 01/04/2013 15:35 --- Proposta - Page_Load: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+Erro: WEBAGILITY - 01/04/2013 15:36 --- Proposta - Page_Load: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+Erro: WEBAGILITY - 01/04/2013 15:36 --- Proposta - Page_Load: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+Erro: WEBAGILITY - 01/04/2013 15:36 --- Proposta - Page_Load: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+Erro: WEBAGILITY - 01/04/2013 15:36 --- Proposta - Page_Load: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+Erro: WEBAGILITY - 01/04/2013 15:36 --- Proposta - Page_Load: O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+Erro: WEBAGILITY - 01/04/2013 15:41 --- Login - objLogin_Authenticate: System.Data.SqlClient.SqlException: Tempo limite expirou. O tempo limite esgotou antes da conclusão da operação ou o servidor não está respondendo.
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   em System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   em System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   em System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   em Orcamento.Vendedor.ctlVendedor.SelecionarUsuarioID(String sUsuario) na C:\Projetos\crm-web\Desenv\Fontes\classes\ctlVendedor.vb:linha 21
+   em Orcamento.Login.objLogin_Authenticate(Object sender, AuthenticateEventArgs e) na C:\Projetos\crm-web\Desenv\Fontes\Login.aspx.vb:linha 23
+Erro: WEBAGILITY - 01/04/2013 15:44 --- Proposta - Page_Load: A proposta '004652' não foi localizada.
+Erro: WEBAGILITY - 01/04/2013 15:44 --- Proposta - Page_Load: Referência de objeto não definida para uma instância de um objeto.
+Erro: WEBAGILITY - 01/04/2013 15:44 --- Proposta - Page_Load: A proposta '004652' não foi localizada.
+Erro: WEBAGILITY - 01/04/2013 15:44 --- Proposta - Page_Load: Referência de objeto não definida para uma instância de um objeto.
+Erro: WEBAGILITY - 01/04/2013 15:51 --- Proposta - btnSalvar_Click: Membro público 'CodVendedor' no tipo 'FICHAORCAMENTOSTRUCT' não encontrado.
+Erro: WEBAGILITY - 01/04/2013 16:02 --- Proposta - btnSalvar_Click: Membro público 'CodVendedor' no tipo 'FICHAORCAMENTOSTRUCT' não encontrado.
+Erro: WEBAGILITY - 01/04/2013 17:50 --- Proposta - btnSalvar_Click: A proposta '004917' não foi localizada.
+Erro: WEBAGILITY - 01/04/2013 17:55 --- Proposta - btnSalvar_Click: A proposta '004918' não foi localizada.
+Erro: WEBAGILITY - 01/04/2013 18:00 --- Proposta - btnSalvar_Click: A proposta '004919' não foi localizada.
+Erro: Session nome usuario em branco. - 02/04/2013 10:24 --- Login - objLogin_Authenticate: System.Net.WebException: Impossível conectar-se ao servidor remoto ---> System.Net.Sockets.SocketException: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu 10.230.2.44:91
+   em System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   em System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   em System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   em System.Net.HttpWebRequest.GetRequestStream()
+   em System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   em Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICAR(TKNSTRUCT TOKEN) na C:\Projetos\crm-web\Desenv\Fontes\Web References\WSUserAgility\Reference.vb:linha 80
+   em Orcamento.clsSeguranca.Autenticar(String sUsername, String sPassword) na C:\Projetos\crm-web\Desenv\Fontes\classes\clsSeguranca.vb:linha 112
+   em Orcamento.Login.objLogin_Authenticate(Object sender, AuthenticateEventArgs e) na C:\Projetos\crm-web\Desenv\Fontes\Login.aspx.vb:linha 19
+Erro: Session nome usuario em branco. - 13/06/2013 17:41 --- Login - objLogin_Authenticate: System.Net.WebException: Impossível conectar-se ao servidor remoto ---> System.Net.Sockets.SocketException: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu 10.230.2.44:91
+   em System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   em System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   em System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   em System.Net.HttpWebRequest.GetRequestStream()
+   em System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   em Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICAR(TKNSTRUCT TOKEN) na C:\Projetos\crm-web\Desenv\Fontes\Web References\WSUserAgility\Reference.vb:linha 80
+   em Orcamento.clsSeguranca.Autenticar(String sUsername, String sPassword) na C:\Projetos\crm-web\Desenv\Fontes\classes\clsSeguranca.vb:linha 114
+   em Orcamento.Login.objLogin_Authenticate(Object sender, AuthenticateEventArgs e) na C:\Projetos\crm-web\Desenv\Fontes\Login.aspx.vb:linha 19
+Erro: Session nome usuario em branco. - 13/06/2013 17:57 --- Login - objLogin_Authenticate: System.Web.Services.Protocols.SoapHeaderException: INTERNAL SERVER ERROR : type mismatch on + 
+   em System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   em System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   em Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICAR(TKNSTRUCT TOKEN) na C:\Projetos\crm-web\Desenv\Fontes\Web References\WSUserAgility\Reference.vb:linha 80
+   em Orcamento.clsSeguranca.Autenticar(String sUsername, String sPassword) na C:\Projetos\crm-web\Desenv\Fontes\classes\clsSeguranca.vb:linha 135
+   em Orcamento.Login.objLogin_Authenticate(Object sender, AuthenticateEventArgs e) na C:\Projetos\crm-web\Desenv\Fontes\Login.aspx.vb:linha 19
+Erro: Session nome usuario em branco. - 13/06/2013 17:57 --- Login - objLogin_Authenticate: System.Web.Services.Protocols.SoapHeaderException: INTERNAL SERVER ERROR : type mismatch on + 
+   em System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   em System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   em Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICAR(TKNSTRUCT TOKEN) na C:\Projetos\crm-web\Desenv\Fontes\Web References\WSUserAgility\Reference.vb:linha 80
+   em Orcamento.clsSeguranca.Autenticar(String sUsername, String sPassword) na C:\Projetos\crm-web\Desenv\Fontes\classes\clsSeguranca.vb:linha 135
+   em Orcamento.Login.objLogin_Authenticate(Object sender, AuthenticateEventArgs e) na C:\Projetos\crm-web\Desenv\Fontes\Login.aspx.vb:linha 19
+Erro: WEBINTERCTI - 19/06/2013 12:03 --- Proposta - btnSalvar_Click: Impossível conectar-se ao servidor remoto
+Erro: WEBBLB - 24/06/2013 15:49 --- Proposta - btnAlterar_Click: Impossível conectar-se ao servidor remoto
+Erro: WEBBLB - 24/06/2013 15:49 --- Login - objLogin_Authenticate: System.Net.WebException: Impossível conectar-se ao servidor remoto ---> System.Net.Sockets.SocketException: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu 10.230.2.42:91
+   em System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   em System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   em System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   em System.Net.HttpWebRequest.GetRequestStream()
+   em System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   em Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICAR(TKNSTRUCT TOKEN) na C:\Projetos\crm-web\Desenv\Fontes\Web References\WSUserAgility\Reference.vb:linha 80
+   em Orcamento.clsSeguranca.Autenticar(String sUsername, String sPassword) na C:\Projetos\crm-web\Desenv\Fontes\classes\clsSeguranca.vb:linha 136
+   em Orcamento.Login.objLogin_Authenticate(Object sender, AuthenticateEventArgs e) na C:\Projetos\crm-web\Desenv\Fontes\Login.aspx.vb:linha 19
+Erro: WEBBLB - 24/06/2013 15:58 --- Proposta - btnAlterar_Click: Impossível conectar-se ao servidor remoto
+Erro: Session nome usuario em branco. - 28/08/2013 14:47 --- Login - Authenticate: Login: WEBAGILITY - Senha: 1234 - Usuário e/ou senha inválidos.
+Erro: Session nome usuario em branco. - 01/08/2014 11:48 --- Login - objLogin_Authenticate: WEBAGILITY - Senha: WEBAGILITY - 
+Erro: Session nome usuario em branco. - 01/08/2014 11:49 --- Login - objLogin_Authenticate: WEBAGILITY - Senha: WEBAGILITY - 
+Erro: Session nome usuario em branco. - 01/08/2014 13:16 --- Login - objLogin_Authenticate: WEBAGILITY - Senha: WEBAGILITY - 
+Erro: Session nome usuario em branco. - 01/08/2014 13:25 --- Login - objLogin_Authenticate: WEBAGILITY - Senha: WEBAGILITY - 
+Erro: Session nome usuario em branco. - 01/08/2014 13:28 --- Login - objLogin_Authenticate: WEBAGILITY - Senha: WEBAGILITY - 
+Erro: Session nome usuario em branco. - 01/08/2014 13:47 --- Login - objLogin_Authenticate: WEBAGILITY - Senha: WEBAGILITY - 
+Erro: Session nome usuario em branco. - 01/08/2014 15:31 --- Login - objLogin_Authenticate: WEB - Senha: WEBAGILITY - 
+Erro: Session nome usuario em branco. - 01/08/2014 16:32 --- Login - objLogin_Authenticate: WEBAGILITY - Senha: WEBAGILITY - 
+Erro: Session nome usuario em branco. - 01/08/2014 16:56 --- Login - objLogin_Authenticate: WEBAGILITY - Senha: One Might Say - 

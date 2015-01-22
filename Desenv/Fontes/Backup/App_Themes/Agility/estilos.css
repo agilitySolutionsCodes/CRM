@@ -1,0 +1,264 @@
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: white; /* #5D7B9D; /* Prefissional */
+    background-image: url("PapelParede.jpg");
+    background-repeat: repeat-x;
+    color: blue;
+    font-weight:normal;
+}
+
+.Logo {
+    background-image: url("Logo.png");
+    width: 220px;
+    height: 55px;
+    background-repeat: no-repeat;
+}
+
+.Logout {
+    float:right;
+    padding-top:30px;
+    padding-right:15px;
+    color: blue;
+}
+
+.UsuarioCorrente {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 5px;
+    /*vertical-align:middle;*/
+    width: 100.15%;
+    height: 25px;
+    font-weight: bold;
+    background-color: #CCCC99;
+    color: blue;
+    float:left;
+}
+
+.Pesquisa {
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 31px;
+    width: 100%;
+}
+
+.PaginaCorrente {
+    margin-top:0px;
+    float:right;
+    padding-right:15px;
+}
+
+.LinhaDivisoria {
+    background-color: #5D7B9D; /* Prefissional */
+    color: #5D7B9D; /* Prefissional */
+    height: 1px;
+    width: 100%;
+    border-color: #5D7B9D; /* Prefissional */
+    margin-bottom: 1px;
+}
+
+.formulario {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: navy;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 14px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    width: 1000px;
+    font-weight:normal;
+}
+
+a.menu:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a.menu:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a.menu:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+a.menu:active {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a.links:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.links:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.links:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.links:active {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a.link:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a.link:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a.link:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+a.link:active {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.button {
+    border: 1px solid #cccc99;
+    font-weight: bold;
+    font-size: 15px;
+    color: #5D7B9D; /* Prefissional */
+    font-family: Verdana, Arial, sans-serif;
+    background-color:  Transparent;
+    border:none;
+    background-image: url("botao.gif");
+    width:124px;
+    height:25px;
+    cursor:pointer;  
+}
+
+.button:hover {
+    text-decoration: underline;
+    color: Blue;
+}
+
+.button:active {
+    text-decoration: underline;
+}
+
+
+.txt {
+    padding-left: 15px;
+    font-size: 15px;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+
+.Combo {
+    font-size: 15px;
+    color: #666666;
+}
+
+.Combo .ajax__combobox_inputcontainer {
+    font-size: 15px;
+    color: #666666;
+}
+
+.Combo .ajax__combobox_textboxcontainer {
+    font-size: 15px;
+    color: #666666;
+}
+
+.Combo .ajax__combobox_buttoncontainer {
+    font-size: 15px;
+    color: #666666;
+}
+
+.Combo .ajax__combobox_itemlist {
+    font-size: 15px;
+    color: #666666;
+}
+
+input {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 15px;
+    color: #666666;
+}
+
+select {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 15px;
+    color: #666666;
+}
+
+
+textarea {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 15px;
+    color: #666666;
+}
+
+.label {
+    font-weight:bold;
+}
+
+.label2  {
+    text-transform: capitalize;
+}

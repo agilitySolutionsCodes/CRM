@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://10.230.2.42:91/WSUSERAGILITY.apw?WSDL" filename="WSUSERAGILITY.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

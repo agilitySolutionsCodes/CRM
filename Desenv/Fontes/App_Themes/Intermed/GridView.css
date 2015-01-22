@@ -1,0 +1,117 @@
+﻿/*GridViewCSS Chrome Style*/
+.GridViewStyle {
+    font-family: Arial, Sans-Serif;
+    font-weight: normal;
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: #000000 1px solid;
+    text-transform: capitalize;
+    overflow: auto;
+}
+
+/*Header and Pager styles*/
+.HeaderStyle, .PagerStyle /*Common Styles*/ {
+    background-image: url(Images/HeaderChrome.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-color: #54585A;    
+    border: #000000 1px solid;
+    color: White;
+    font-weight: bold;
+}
+
+    .HeaderStyle th {
+        padding: 5px;
+        color: #ffffff;
+    }
+
+    .HeaderStyle a {
+        text-decoration: none;
+        color: white;
+        display: block;
+        text-align: left;
+        font-weight: bold;
+    }
+
+        .HeaderStyle a:Hover {
+            text-decoration: underline;
+        }
+
+    .PagerStyle table {
+        text-align: center;
+        margin: auto;
+    }
+
+        .PagerStyle table td {
+            border: 0px;
+            padding: 5px;
+        }
+
+    .PagerStyle td {
+        border-top: #1d1d1d 1px solid;
+    }
+
+    .PagerStyle a {
+        color: white;
+        text-decoration: none;
+        padding: 2px 10px 2px 10px;
+        border-top: solid 1px #777777;
+        border-right: solid 1px #333333;
+        border-bottom: solid 1px #333333;
+        border-left: solid 1px #777777;
+    }
+
+    .PagerStyle span {
+        font-weight: bold;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 2px 10px 2px 10px;
+    }
+
+/*RowStyles*/
+.RowStyle td, .AltRowStyle td, .SelectedRowStyle td, .EditRowStyle td /*Common Styles*/ {
+    padding: 5px;
+}
+
+.RowStyle {
+    background-color: #F7F6F3;
+}
+
+.RowStyle2 {
+}
+
+.RowStyleNew {
+}
+
+.RowStyle2 td, .AltRowStyle2 td, .SelectedRowStyle td, .EditRowStyle td /*Common Styles*/ {
+    padding: 5px;
+    background-color: #F7F6F3;
+}
+
+.RowStyle2 td {
+}
+
+.AltRowStyle td {
+    background-color: white;
+    padding: 5px;
+}
+
+.AltRowStyle2 td {
+    padding: 5px;
+}
+
+.SelectedRowStyle td {
+    background-color: #ffff66;
+}
+
+.gridHeaderImpressao {
+    text-align: left;
+}
+
+.gridFundo {
+    font-family: Arial, Sans-Serif;
+    text-transform: Capitalize;
+    border: 1px solid #000000;
+    overflow: auto;
+}

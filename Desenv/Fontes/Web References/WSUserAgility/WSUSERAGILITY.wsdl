@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:s0="http://10.230.2.42:91/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" targetNamespace="http://10.230.2.42:91/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://10.230.2.42:91/">
+      <s:element name="AUTENTICAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TOKEN" type="s0:TKNSTRUCT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AUTENTICARRESPONSE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AUTENTICARRESULT" type="s0:VALIDASTRUCT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="VALIDASTRUCT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="RETORNO" type="s0:RETSTRUCT" />
+          <s:element minOccurs="0" maxOccurs="1" name="USUARIO" type="s0:USUARIOSTRUCT" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TKNSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CONTEUDO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EMPRESAFILIAL" type="s0:EMPFILIALSTRUCT" />
+          <s:element minOccurs="0" maxOccurs="1" name="MENSAGEM" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MODULO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SENHA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SESSIONID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SISTEMA" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="RETSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CHAVE" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CODIGO" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="MENSAGEM" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SUCESSO" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="USUARIOSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ACESSOMENU" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EMAIL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FILIAIS" type="s0:ARRAYOFEMPFILIALSTRUCT" />
+          <s:element minOccurs="0" maxOccurs="1" name="GRUPOS" type="s0:ARRAYOFSTRING" />
+          <s:element minOccurs="0" maxOccurs="1" name="GRUPOUSUARIO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="NOME" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="REGIOES" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TOKEN" type="s0:TKNSTRUCT" />
+          <s:element minOccurs="1" maxOccurs="1" name="USERID" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="USERNAME" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="EMPFILIALSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="EMPRESA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FILIAL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FILPAR" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ARRAYOFEMPFILIALSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="EMPFILIALSTRUCT" type="s0:EMPFILIALSTRUCT" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ARRAYOFSTRING">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="STRING" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </types>
+  <message name="AUTENTICARSOAPIN">
+    <part name="parameters" element="s0:AUTENTICAR" />
+  </message>
+  <message name="AUTENTICARSOAPOUT">
+    <part name="parameters" element="s0:AUTENTICARRESPONSE" />
+  </message>
+  <portType name="WSUSERAGILITYSOAP">
+    <operation name="AUTENTICAR">
+      <documentation>Método de autenticação do usuário no Microsiga</documentation>
+      <input message="s0:AUTENTICARSOAPIN" />
+      <output message="s0:AUTENTICARSOAPOUT" />
+    </operation>
+  </portType>
+  <binding name="WSUSERAGILITYSOAP" type="s0:WSUSERAGILITYSOAP">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="AUTENTICAR">
+      <soap:operation soapAction="http://10.230.2.42:91/AUTENTICAR" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WSUSERAGILITY">
+    <documentation>Serviços de segurança relacionados ao usuário Microsiga</documentation>
+    <port name="WSUSERAGILITYSOAP" binding="s0:WSUSERAGILITYSOAP">
+      <soap:address location="http://10.230.2.42:91/WSUSERAGILITY.apw" />
+    </port>
+  </service>
+</definitions>

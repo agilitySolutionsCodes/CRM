@@ -1,0 +1,274 @@
+/*Intermed*/
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #BEBEBE;
+    /*color: #336633;*/
+    font-weight: normal;
+}
+
+.Logo {
+    background-image: url("Logo.jpg");
+    width: 220px;
+    height: 55px;
+    background-repeat: no-repeat;
+}
+
+.Logout {
+    float: right;
+    padding-top: 30px;
+    padding-right: 15px;
+    color: #3B3B3B;
+}
+
+.UsuarioCorrente {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 5px;
+    width: 100.25%;
+    height: 25px;
+    font-weight: bold;
+    background-color: #54585A;
+    color: #ffffff;
+    float: left;
+}
+
+.Pesquisa {
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 31px;
+    width: 100%;
+}
+
+.PaginaCorrente {
+    margin-top: 0px;
+    float: right;
+    padding-right: 15px;
+}
+
+.LinhaDivisoria {
+    background-color: #FF6308;
+    color: #FF6308;
+    height: 1px;
+    width: 100%;
+    border: 1px solid #FF6308;
+    margin-bottom: 1px;
+}
+
+.formulario {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    /*color: #336633;*/
+    font-size: 15px;
+    background-color: white;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 14px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    width: 1000px;
+    font-weight: normal;
+}
+
+a.menu:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #3B3B3B;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a.menu:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #336633;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a.menu:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #336633;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+a.menu:active {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #336633;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a.links:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #336633;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.links:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #336633;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.links:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #336633;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.links:active {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #336633;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #3B3B3B;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: underline;
+    }
+
+    a.link:link {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #336633;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    a.link:visited {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #336633;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    a.link:hover {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #336633;
+        font-size: 15px;
+        text-decoration: underline;
+    }
+
+    a.link:active {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #336633;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+.button {
+    border: 1px solid #cccc99;
+    font-weight: bold;
+    font-size: 15px;
+    color: #3B3B3B;
+    font-family: Verdana, Arial, sans-serif;
+    background-color: Transparent;
+    border: none;
+    background-image: url("botao.gif");
+    width: 124px;
+    height: 25px;
+    cursor: pointer;
+}
+
+    .button:hover {
+        text-decoration: underline;
+    }
+
+    .button:active {
+        text-decoration: underline;
+    }
+
+.txt {
+    padding-left: 15px;
+    font-size: 15px;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.Combo {
+    font-size: 15px;
+    color: #666666;
+}
+
+    .Combo .ajax__combobox_inputcontainer {
+        font-size: 15px;
+        color: #666666;
+    }
+
+    .Combo .ajax__combobox_textboxcontainer {
+        font-size: 15px;
+        color: #666666;
+    }
+
+    .Combo .ajax__combobox_buttoncontainer {
+        font-size: 15px;
+        color: #666666;
+    }
+
+    .Combo .ajax__combobox_itemlist {
+        font-size: 15px;
+        color: #666666;
+    }
+
+input {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 15px;
+    color: #666666;
+}
+
+select {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 15px;
+    color: #666666;
+}
+
+
+textarea {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 15px;
+    color: #666666;
+    width: 99.4%;
+    height: 70px;
+}
+
+.label {
+    font-weight: bold;
+    color:#3B3B3B;
+}
+
+.label2 {
+    text-transform: capitalize;
+}
+
+
+#divProcessando {
+    background: url("carregando3.gif") no-repeat center;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

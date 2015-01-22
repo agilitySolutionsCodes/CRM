@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2012-10-10T11:59:22.0000000-03:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Themes/Agility/aguarde.gif">
+      <publishTime>02/08/2011 10:14:07</publishTime>
+    </File>
+    <File Include="App_Themes/Agility/alerta.png">
+      <publishTime>02/08/2011 10:14:07</publishTime>
+    </File>
+    <File Include="App_Themes/Agility/botao.gif">
+      <publishTime>02/08/2011 10:14:07</publishTime>
+    </File>
+    <File Include="App_Themes/Agility/erro.png">
+      <publishTime>02/08/2011 10:14:07</publishTime>
+    </File>
+    <File Include="App_Themes/Agility/estilos.css">
+      <publishTime>05/14/2011 11:29:42</publishTime>
+    </File>
+    <File Include="App_Themes/Agility/GridView.css">
+      <publishTime>04/27/2011 11:10:19</publishTime>
+    </File>
+    <File Include="App_Themes/Agility/informacao.png">
+      <publishTime>02/08/2011 10:14:07</publishTime>
+    </File>
+    <File Include="App_Themes/Agility/Logo.png">
+      <publishTime>02/08/2011 11:29:35</publishTime>
+    </File>
+    <File Include="App_Themes/Agility/PapelParede.jpg">
+      <publishTime>02/08/2011 11:25:22</publishTime>
+    </File>
+    <File Include="App_Themes/Agility/pixel.png">
+      <publishTime>02/08/2011 10:14:07</publishTime>
+    </File>
+    <File Include="App_Themes/Agility/search.png">
+      <publishTime>02/08/2011 10:14:07</publishTime>
+    </File>
+    <File Include="App_Themes/Agility/UserControls.css">
+      <publishTime>05/06/2011 15:04:58</publishTime>
+    </File>
+    <File Include="App_Themes/Intermed/aguarde.gif">
+      <publishTime>06/21/2010 13:59:23</publishTime>
+    </File>
+    <File Include="App_Themes/Intermed/alerta.png">
+      <publishTime>06/21/2010 13:59:23</publishTime>
+    </File>
+    <File Include="App_Themes/Intermed/botao.gif">
+      <publishTime>06/07/2010 18:26:37</publishTime>
+    </File>
+    <File Include="App_Themes/Intermed/erro.png">
+      <publishTime>06/21/2010 13:59:30</publishTime>
+    </File>
+    <File Include="App_Themes/Intermed/estilos.css">
+      <publishTime>07/21/2011 10:36:58</publishTime>
+    </File>
+    <File Include="App_Themes/Intermed/GridView.css">
+      <publishTime>05/05/2011 12:01:36</publishTime>
+    </File>
+    <File Include="App_Themes/Intermed/informacao.png">
+      <publishTime>06/21/2010 13:59:42</publishTime>
+    </File>
+    <File Include="App_Themes/Intermed/Logo.png">
+      <publishTime>02/08/2011 11:55:10</publishTime>
+    </File>
+    <File Include="App_Themes/Intermed/pixel.png">
+      <publishTime>06/21/2010 14:00:09</publishTime>
+    </File>
+    <File Include="App_Themes/Intermed/search.png">
+      <publishTime>06/07/2010 18:26:52</publishTime>
+    </File>
+    <File Include="App_Themes/Intermed/UserControls.css">
+      <publishTime>04/27/2011 10:58:25</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>05/12/2010 11:10:28</publishTime>
+    </File>
+    <File Include="bin/Orcamento.dll">
+      <publishTime>07/21/2011 13:49:02</publishTime>
+    </File>
+    <File Include="bin/Orcamento.pdb">
+      <publishTime>07/21/2011 13:49:02</publishTime>
+    </File>
+    <File Include="bin/Orcamento.xml">
+      <publishTime>07/21/2011 13:49:02</publishTime>
+    </File>
+    <File Include="componentes/controles/AutoHideButton.ascx">
+      <publishTime>06/17/2010 16:17:51</publishTime>
+    </File>
+    <File Include="componentes/controles/BarraUsuario.ascx">
+      <publishTime>04/25/2011 11:56:59</publishTime>
+    </File>
+    <File Include="componentes/controles/ConsultaPadrao.ascx">
+      <publishTime>04/29/2011 11:47:55</publishTime>
+    </File>
+    <File Include="componentes/controles/DateBox.ascx">
+      <publishTime>02/22/2011 14:17:05</publishTime>
+    </File>
+    <File Include="componentes/controles/DetalheConsultaPadrao.ascx">
+      <publishTime>04/26/2011 10:38:42</publishTime>
+    </File>
+    <File Include="componentes/controles/DetalheProduto.ascx">
+      <publishTime>05/06/2011 14:56:51</publishTime>
+    </File>
+    <File Include="componentes/controles/Mensagem.ascx">
+      <publishTime>06/17/2010 16:20:52</publishTime>
+    </File>
+    <File Include="componentes/controles/NumberBox.ascx">
+      <publishTime>06/17/2010 16:20:52</publishTime>
+    </File>
+    <File Include="componentes/controles/pixel.png">
+      <publishTime>04/28/2010 15:02:02</publishTime>
+    </File>
+    <File Include="controlesespecificos/ClienteBox.ascx">
+      <publishTime>04/26/2011 10:43:33</publishTime>
+    </File>
+    <File Include="controlesespecificos/ClienteView.ascx">
+      <publishTime>04/26/2011 10:42:31</publishTime>
+    </File>
+    <File Include="controlesespecificos/CondicaoPagamentoView.ascx">
+      <publishTime>04/26/2011 10:45:00</publishTime>
+    </File>
+    <File Include="controlesespecificos/DescricaoDetalhada.ascx">
+      <publishTime>08/17/2010 17:43:33</publishTime>
+    </File>
+    <File Include="controlesespecificos/NFBox.ascx">
+      <publishTime>08/03/2010 17:42:11</publishTime>
+    </File>
+    <File Include="controlesespecificos/ProdutoBox.ascx">
+      <publishTime>04/26/2011 10:39:43</publishTime>
+    </File>
+    <File Include="controlesespecificos/ProdutoView.ascx">
+      <publishTime>07/07/2011 17:06:45</publishTime>
+    </File>
+    <File Include="controlesespecificos/StatusPropostaBox.ascx">
+      <publishTime>06/25/2010 09:30:32</publishTime>
+    </File>
+    <File Include="controlesespecificos/VendedorBox.ascx">
+      <publishTime>06/17/2010 16:20:52</publishTime>
+    </File>
+    <File Include="controlesespecificos/VendedorView.ascx">
+      <publishTime>04/28/2011 13:24:36</publishTime>
+    </File>
+    <File Include="Erro.aspx">
+      <publishTime>06/17/2010 16:17:38</publishTime>
+    </File>
+    <File Include="fotos/100.00058.JPG">
+      <publishTime>05/06/2011 15:09:13</publishTime>
+    </File>
+    <File Include="fotos/100.00104.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/100.00104G.jpg">
+      <publishTime>05/06/2011 15:09:13</publishTime>
+    </File>
+    <File Include="fotos/100.00105G.jpg">
+      <publishTime>05/06/2011 15:09:13</publishTime>
+    </File>
+    <File Include="fotos/100.00107G.jpg">
+      <publishTime>05/06/2011 15:09:13</publishTime>
+    </File>
+    <File Include="fotos/100.00109G.JPG">
+      <publishTime>05/06/2011 15:09:13</publishTime>
+    </File>
+    <File Include="fotos/100.00110G.JPG">
+      <publishTime>05/06/2011 15:09:13</publishTime>
+    </File>
+    <File Include="fotos/100.00113.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/100.00113G.jpg">
+      <publishTime>05/06/2011 15:09:13</publishTime>
+    </File>
+    <File Include="fotos/100.00202.JPG">
+      <publishTime>05/06/2011 15:09:13</publishTime>
+    </File>
+    <File Include="fotos/100.11009.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/100.11009G.jpg">
+      <publishTime>05/06/2011 15:09:13</publishTime>
+    </File>
+    <File Include="fotos/100.15006.png">
+      <publishTime>05/06/2011 15:09:13</publishTime>
+    </File>
+    <File Include="fotos/100.15012.png">
+      <publishTime>05/06/2011 15:09:13</publishTime>
+    </File>
+    <File Include="fotos/100.19000.jpg">
+      <publishTime>05/06/2011 15:09:16</publishTime>
+    </File>
+    <File Include="fotos/100.19002.png">
+      <publishTime>05/06/2011 15:09:16</publishTime>
+    </File>
+    <File Include="fotos/100.19003.png">
+      <publishTime>05/06/2011 15:09:16</publishTime>
+    </File>
+    <File Include="fotos/100.20000.png">
+      <publishTime>05/06/2011 15:09:16</publishTime>
+    </File>
+    <File Include="fotos/100.21000.jpg">
+      <publishTime>05/06/2011 15:09:17</publishTime>
+    </File>
+    <File Include="fotos/100.21002.png">
+      <publishTime>05/06/2011 15:09:17</publishTime>
+    </File>
+    <File Include="fotos/100.21003.png">
+      <publishTime>05/06/2011 15:09:17</publishTime>
+    </File>
+    <File Include="fotos/100.22000.png">
+      <publishTime>05/06/2011 15:09:17</publishTime>
+    </File>
+    <File Include="fotos/130.01362.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/130.01362A.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/130.01362AG.jpg">
+      <publishTime>05/06/2011 15:09:17</publishTime>
+    </File>
+    <File Include="fotos/130.01362G.jpg">
+      <publishTime>05/06/2011 15:09:17</publishTime>
+    </File>
+    <File Include="fotos/130.01420.jpg">
+      <publishTime>05/06/2011 15:09:18</publishTime>
+    </File>
+    <File Include="fotos/130.01421.jpg">
+      <publishTime>05/06/2011 15:09:18</publishTime>
+    </File>
+    <File Include="fotos/131.00313.jpg">
+      <publishTime>05/06/2011 15:09:18</publishTime>
+    </File>
+    <File Include="fotos/131.00414.JPG">
+      <publishTime>05/06/2011 15:09:19</publishTime>
+    </File>
+    <File Include="fotos/131.00950.jpg">
+      <publishTime>05/06/2011 15:09:19</publishTime>
+    </File>
+    <File Include="fotos/132.00304.jpg">
+      <publishTime>05/06/2011 15:09:20</publishTime>
+    </File>
+    <File Include="fotos/132.00609.JPG">
+      <publishTime>05/06/2011 15:09:20</publishTime>
+    </File>
+    <File Include="fotos/134.00000A.jpg">
+      <publishTime>05/06/2011 15:09:20</publishTime>
+    </File>
+    <File Include="fotos/134.00000CA.jpg">
+      <publishTime>05/06/2011 15:09:20</publishTime>
+    </File>
+    <File Include="fotos/134.00070.jpg">
+      <publishTime>05/06/2011 15:09:21</publishTime>
+    </File>
+    <File Include="fotos/134.00400.jpg">
+      <publishTime>05/06/2011 15:09:21</publishTime>
+    </File>
+    <File Include="fotos/134.00402.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/134.00402G.jpg">
+      <publishTime>05/06/2011 15:09:21</publishTime>
+    </File>
+    <File Include="fotos/134.00403.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/134.00403G.jpg">
+      <publishTime>05/06/2011 15:09:21</publishTime>
+    </File>
+    <File Include="fotos/134.00404.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/134.00404G.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/134.00407.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/136.0010.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/136.00310G.jpg">
+      <publishTime>05/06/2011 15:09:21</publishTime>
+    </File>
+    <File Include="fotos/136.00311.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/136.00311G.jpg">
+      <publishTime>05/06/2011 15:09:21</publishTime>
+    </File>
+    <File Include="fotos/136.00347.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/136.00347G.jpg">
+      <publishTime>05/06/2011 15:09:21</publishTime>
+    </File>
+    <File Include="fotos/138.01000.jpg">
+      <publishTime>05/06/2011 15:09:22</publishTime>
+    </File>
+    <File Include="fotos/138.02000.jpg">
+      <publishTime>05/06/2011 15:09:22</publishTime>
+    </File>
+    <File Include="fotos/140.00000.jpg">
+      <publishTime>05/06/2011 15:09:22</publishTime>
+    </File>
+    <File Include="fotos/140.00000C.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/140.02100.jpg">
+      <publishTime>05/06/2011 15:09:22</publishTime>
+    </File>
+    <File Include="fotos/150.00000.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/150.00000P.jpg">
+      <publishTime>05/06/2011 15:09:22</publishTime>
+    </File>
+    <File Include="fotos/150.0000P.jpg">
+      <publishTime>05/10/2011 13:57:49</publishTime>
+    </File>
+    <File Include="fotos/150.000PG.jpg">
+      <publishTime>05/06/2011 15:09:22</publishTime>
+    </File>
+    <File Include="fotos/150.00550.jpg">
+      <publishTime>05/06/2011 15:09:22</publishTime>
+    </File>
+    <File Include="fotos/150.01100.jpg">
+      <publishTime>05/06/2011 15:09:22</publishTime>
+    </File>
+    <File Include="fotos/151.00000CEP3.jpg">
+      <publishTime>05/06/2011 15:09:23</publishTime>
+    </File>
+    <File Include="fotos/151.00900.jpg">
+      <publishTime>05/06/2011 15:09:23</publishTime>
+    </File>
+    <File Include="fotos/152.00000P.jpg">
+      <publishTime>05/06/2011 15:09:23</publishTime>
+    </File>
+    <File Include="fotos/152.0000P.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/152.000PG.jpg">
+      <publishTime>05/06/2011 15:09:23</publishTime>
+    </File>
+    <File Include="fotos/155.00000P.jpg">
+      <publishTime>05/06/2011 15:09:23</publishTime>
+    </File>
+    <File Include="fotos/155.0000P.jpg">
+      <publishTime>04/14/2011 15:20:24</publishTime>
+    </File>
+    <File Include="fotos/155.000PG.jpg">
+      <publishTime>05/06/2011 15:09:23</publishTime>
+    </File>
+    <File Include="fotos/177.00000.jpg">
+      <publishTime>05/06/2011 15:09:23</publishTime>
+    </File>
+    <File Include="fotos/177.00000PPT.jpg">
+      <publishTime>05/06/2011 15:09:23</publishTime>
+    </File>
+    <File Include="fotos/177.0000P.jpg">
+      <publishTime>02/01/2011 19:47:39</publishTime>
+    </File>
+    <File Include="fotos/177.0000PPT.jpg">
+      <publishTime>05/20/2011 18:47:03</publishTime>
+    </File>
+    <File Include="fotos/177.00437.jpg">
+      <publishTime>05/06/2011 15:09:23</publishTime>
+    </File>
+    <File Include="fotos/177.00734.jpg">
+      <publishTime>05/06/2011 15:09:24</publishTime>
+    </File>
+    <File Include="fotos/177.01000.JPG">
+      <publishTime>05/06/2011 15:09:24</publishTime>
+    </File>
+    <File Include="fotos/177.01100.jpg">
+      <publishTime>05/20/2011 18:49:55</publishTime>
+    </File>
+    <File Include="fotos/303.00115.JPG">
+      <publishTime>05/06/2011 15:09:24</publishTime>
+    </File>
+    <File Include="fotos/408.00002.jpg">
+      <publishTime>05/06/2011 15:09:24</publishTime>
+    </File>
+    <File Include="fotos/408.00003.JPG">
+      <publishTime>05/06/2011 15:09:24</publishTime>
+    </File>
+    <File Include="fotos/408.00030.JPG">
+      <publishTime>05/20/2011 18:50:58</publishTime>
+    </File>
+    <File Include="fotos/pixel.png">
+      <publishTime>02/01/2011 19:46:29</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/17/2010 16:20:51</publishTime>
+    </File>
+    <File Include="imagens/confirmar.png">
+      <publishTime>04/29/2010 22:35:11</publishTime>
+    </File>
+    <File Include="imagens/desfazer.png">
+      <publishTime>05/13/2010 19:25:03</publishTime>
+    </File>
+    <File Include="imagens/Editar.png">
+      <publishTime>04/29/2010 22:34:21</publishTime>
+    </File>
+    <File Include="imagens/Excluir.png">
+      <publishTime>04/29/2010 22:43:18</publishTime>
+    </File>
+    <File Include="imagens/fechar.jpg">
+      <publishTime>04/28/2010 15:01:59</publishTime>
+    </File>
+    <File Include="imagens/Novo.png">
+      <publishTime>04/29/2010 22:33:49</publishTime>
+    </File>
+    <File Include="imagens/pixel.png">
+      <publishTime>06/07/2010 18:46:30</publishTime>
+    </File>
+    <File Include="imagens/search.png">
+      <publishTime>04/29/2010 18:03:15</publishTime>
+    </File>
+    <File Include="imagens/severidade.png">
+      <publishTime>04/30/2010 01:11:39</publishTime>
+    </File>
+    <File Include="imagens/wait18trans.gif">
+      <publishTime>04/18/2006 09:06:34</publishTime>
+    </File>
+    <File Include="include.js">
+      <publishTime>05/05/2011 15:56:55</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>06/21/2010 13:46:25</publishTime>
+    </File>
+    <File Include="logos/01617634000150.JPG">
+      <publishTime>03/11/2011 09:38:38</publishTime>
+    </File>
+    <File Include="logos/04220505000112.jpg">
+      <publishTime>05/24/2011 14:00:41</publishTime>
+    </File>
+    <File Include="logos/04562591000141.jpg">
+      <publishTime>05/24/2011 14:00:41</publishTime>
+    </File>
+    <File Include="logos/04933239000175.JPG">
+      <publishTime>03/11/2011 09:39:51</publishTime>
+    </File>
+    <File Include="logos/05000571000140.JPG">
+      <publishTime>03/11/2011 09:41:17</publishTime>
+    </File>
+    <File Include="logos/05316114000169.JPG">
+      <publishTime>03/11/2011 09:44:45</publishTime>
+    </File>
+    <File Include="logos/05743288000108.jpg">
+      <publishTime>05/24/2011 14:00:41</publishTime>
+    </File>
+    <File Include="logos/06269451000105.jpg">
+      <publishTime>06/08/2011 10:26:17</publishTime>
+    </File>
+    <File Include="logos/07112020000101.jpg">
+      <publishTime>05/24/2011 14:00:41</publishTime>
+    </File>
+    <File Include="logos/07311489000161.jpg">
+      <publishTime>03/11/2011 09:45:47</publishTime>
+    </File>
+    <File Include="logos/07796330000184.jpg">
+      <publishTime>05/24/2011 14:00:41</publishTime>
+    </File>
+    <File Include="logos/08026041000169.JPG">
+      <publishTime>03/11/2011 09:47:11</publishTime>
+    </File>
+    <File Include="logos/08344903000100.jpg">
+      <publishTime>05/24/2011 10:12:46</publishTime>
+    </File>
+    <File Include="logos/10404338000162.JPG">
+      <publishTime>03/11/2011 09:58:16</publishTime>
+    </File>
+    <File Include="logos/10795899000130.JPG">
+      <publishTime>06/01/2011 16:48:52</publishTime>
+    </File>
+    <File Include="logos/11619992000156.jpg">
+      <publishTime>07/21/2011 17:23:31</publishTime>
+    </File>
+    <File Include="logos/12853727000109.jpg">
+      <publishTime>03/11/2011 09:50:15</publishTime>
+    </File>
+    <File Include="logos/41784372000133.jpg">
+      <publishTime>03/11/2011 09:51:16</publishTime>
+    </File>
+    <File Include="logos/47018676000176.jpg">
+      <publishTime>09/18/2010 20:36:55</publishTime>
+    </File>
+    <File Include="logos/49520521000169.jpg">
+      <publishTime>09/18/2010 20:36:55</publishTime>
+    </File>
+    <File Include="logos/49520521000320.jpg">
+      <publishTime>09/18/2010 20:36:55</publishTime>
+    </File>
+    <File Include="logos/63359863000170.jpg">
+      <publishTime>03/11/2011 09:52:22</publishTime>
+    </File>
+    <File Include="logos/68653344000133.JPG">
+      <publishTime>09/18/2010 20:52:00</publishTime>
+    </File>
+    <File Include="logos/69229721000174.jpg">
+      <publishTime>09/18/2010 20:36:55</publishTime>
+    </File>
+    <File Include="logos/91040231000184.JPG">
+      <publishTime>01/19/2011 22:40:32</publishTime>
+    </File>
+    <File Include="Logotipos.aspx">
+      <publishTime>03/11/2011 10:04:27</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>04/27/2011 09:29:38</publishTime>
+    </File>
+    <File Include="MasterPrint.Master">
+      <publishTime>04/27/2011 16:12:21</publishTime>
+    </File>
+    <File Include="Principal.aspx">
+      <publishTime>05/19/2011 20:10:27</publishTime>
+    </File>
+    <File Include="Proposta.aspx">
+      <publishTime>07/15/2011 09:56:19</publishTime>
+    </File>
+    <File Include="RptProposta.aspx">
+      <publishTime>07/21/2011 10:36:57</publishTime>
+    </File>
+    <File Include="SubMaster.Master">
+      <publishTime>06/17/2010 16:20:50</publishTime>
+    </File>
+    <File Include="treinamento/Treinamento.html">
+      <publishTime>05/19/2011 20:40:06</publishTime>
+    </File>
+    <File Include="treinamento/Treinamento_media/Treinamento.wmv">
+      <publishTime>05/24/2011 12:13:39</publishTime>
+    </File>
+    <File Include="treinamento/Treinamento_media/Treinamento_player_embed.js">
+      <publishTime>05/20/2011 10:18:22</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/21/2011 13:46:45</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>04/28/2011 09:39:54</publishTime>
+    </File>
+    <File Include="_old/TestPage.aspx">
+      <publishTime>09/28/2010 19:05:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

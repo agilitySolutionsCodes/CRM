@@ -1,0 +1,148 @@
+C:\Users\Andre\Desktop\Orcamento\bin\Orcamento.dll
+C:\Users\Andre\Desktop\Orcamento\bin\Orcamento.pdb
+C:\Users\Andre\Desktop\Orcamento\bin\Orcamento.xml
+C:\Users\Andre\Desktop\Orcamento\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andre\Desktop\Orcamento\obj\Debug\Orcamento.Resources.resources
+C:\Users\Andre\Desktop\Orcamento\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Andre\Desktop\Orcamento\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Andre\Desktop\Orcamento\obj\Debug\Orcamento.dll
+C:\Users\Andre\Desktop\Orcamento\obj\Debug\Orcamento.xml
+C:\Users\Andre\Desktop\Orcamento\obj\Debug\Orcamento.pdb
+C:\Agility\Fontes\Intermed\Orcamento_A\bin\Orcamento.dll
+C:\Agility\Fontes\Intermed\Orcamento_A\bin\Orcamento.pdb
+C:\Agility\Fontes\Intermed\Orcamento_A\bin\Orcamento.xml
+C:\Agility\Fontes\Intermed\Orcamento_A\obj\Debug\ResolveAssemblyReference.cache
+C:\Agility\Fontes\Intermed\Orcamento_A\obj\Debug\Orcamento.Resources.resources
+C:\Agility\Fontes\Intermed\Orcamento_A\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Agility\Fontes\Intermed\Orcamento_A\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Agility\Fontes\Intermed\Orcamento_A\obj\Debug\Orcamento.dll
+C:\Agility\Fontes\Intermed\Orcamento_A\obj\Debug\Orcamento.xml
+C:\Agility\Fontes\Intermed\Orcamento_A\obj\Debug\Orcamento.pdb
+C:\Agility\Fontes\Intermed\Orcamento\obj\Debug\ResolveAssemblyReference.cache
+C:\Agility\Fontes\Intermed\Orcamento\obj\Debug\Orcamento.Resources.resources
+C:\Agility\Fontes\Intermed\Orcamento\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Agility\Fontes\Intermed\Orcamento\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Agility\Fontes\Intermed\Orcamento\bin\Orcamento.dll
+C:\Agility\Fontes\Intermed\Orcamento\bin\Orcamento.pdb
+C:\Agility\Fontes\Intermed\Orcamento\bin\Orcamento.xml
+C:\Agility\Fontes\Intermed\Orcamento\obj\Debug\Orcamento.dll
+C:\Agility\Fontes\Intermed\Orcamento\obj\Debug\Orcamento.xml
+C:\Agility\Fontes\Intermed\Orcamento\obj\Debug\Orcamento.pdb
+C:\Users\Andre\Desktop\Projeto Orcamento Online\Orcamento\bin\Orcamento.dll
+C:\Users\Andre\Desktop\Projeto Orcamento Online\Orcamento\bin\Orcamento.pdb
+C:\Users\Andre\Desktop\Projeto Orcamento Online\Orcamento\bin\Orcamento.xml
+C:\Users\Andre\Desktop\Projeto Orcamento Online\Orcamento\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andre\Desktop\Projeto Orcamento Online\Orcamento\obj\Debug\Orcamento.Resources.resources
+C:\Users\Andre\Desktop\Projeto Orcamento Online\Orcamento\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Andre\Desktop\Projeto Orcamento Online\Orcamento\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Andre\Desktop\Projeto Orcamento Online\Orcamento\obj\Debug\Orcamento.dll
+C:\Users\Andre\Desktop\Projeto Orcamento Online\Orcamento\obj\Debug\Orcamento.xml
+C:\Users\Andre\Desktop\Projeto Orcamento Online\Orcamento\obj\Debug\Orcamento.pdb
+C:\Users\Andre\Desktop\Projeto Orçamento\Orcamento\bin\Orcamento.dll
+C:\Users\Andre\Desktop\Projeto Orçamento\Orcamento\bin\Orcamento.pdb
+C:\Users\Andre\Desktop\Projeto Orçamento\Orcamento\bin\Orcamento.xml
+C:\Users\Andre\Desktop\Projeto Orçamento\Orcamento\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andre\Desktop\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.Resources.resources
+C:\Users\Andre\Desktop\Projeto Orçamento\Orcamento\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Andre\Desktop\Projeto Orçamento\Orcamento\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Andre\Desktop\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.dll
+C:\Users\Andre\Desktop\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.xml
+C:\Users\Andre\Desktop\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.pdb
+C:\Users\André\Desktop\Projeto Orçamento\Orcamento\bin\Orcamento.dll
+C:\Users\André\Desktop\Projeto Orçamento\Orcamento\bin\Orcamento.pdb
+C:\Users\André\Desktop\Projeto Orçamento\Orcamento\bin\Orcamento.xml
+C:\Users\André\Desktop\Projeto Orçamento\Orcamento\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\André\Desktop\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.Resources.resources
+C:\Users\André\Desktop\Projeto Orçamento\Orcamento\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\André\Desktop\Projeto Orçamento\Orcamento\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\André\Desktop\Projeto Orçamento\Orcamento\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\André\Desktop\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.dll
+C:\Users\André\Desktop\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.xml
+C:\Users\André\Desktop\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.pdb
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\bin\Orcamento.dll
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\bin\Orcamento.pdb
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\bin\Orcamento.xml
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.Resources.resources
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.dll
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.xml
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\obj\Debug\Orcamento.pdb
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\obj\Debug\GenerateResource.write.3.tlog
+C:\Users\Andre\Documents\Desenvolvimento\Projeto Orçamento\Orcamento\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\bin\Orcamento.dll
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\bin\Orcamento.pdb
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\bin\Orcamento.xml
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\obj\Debug\Orcamento.Resources.resources
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\obj\Debug\GenerateResource.write.3.tlog
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\obj\Debug\Orcamento.dll
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\obj\Debug\Orcamento.xml
+C:\Users\Andre\Documents\Desenvolvimento\Projeto CRM Web\Orcamento\obj\Debug\Orcamento.pdb
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\bin\Orcamento.dll
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\bin\Orcamento.pdb
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\bin\Orcamento.xml
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\obj\Debug\Orcamento.Resources.resources
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\obj\Debug\GenerateResource.write.3.tlog
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\obj\Debug\Orcamento.dll
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\obj\Debug\Orcamento.xml
+C:\Users\Andre\Documents\Desenvolvimento\CRM WEB\Orcamento\obj\Debug\Orcamento.pdb
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\bin\Orcamento.dll
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\bin\Orcamento.pdb
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\bin\Orcamento.xml
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\obj\Debug\ResolveAssemblyReference.cache
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\obj\Debug\Orcamento.Resources.resources
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\obj\Debug\GenerateResource.read.1.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\obj\Debug\ResGen.read.1.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\obj\Debug\GenerateResource.write.3.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\obj\Debug\ResGen.write.1.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\obj\Debug\Orcamento.dll
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\obj\Debug\Orcamento.xml
+D:\Projetos Desenvolvimentos\CRM WEB\Orcamento\obj\Debug\Orcamento.pdb
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\bin\Orcamento.dll
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\bin\Orcamento.pdb
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\bin\Orcamento.xml
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\ResolveAssemblyReference.cache
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\Orcamento.Resources.resources
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\GenerateResource.read.1.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\ResGen.read.1.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\GenerateResource.write.3.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\ResGen.write.1.tlog
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\Orcamento.dll
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\Orcamento.xml
+D:\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\Orcamento.pdb
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\bin\Orcamento.dll
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\bin\Orcamento.pdb
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\bin\Orcamento.xml
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\Orcamento.Resources.resources
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\GenerateResource.read.1.tlog
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\ResGen.read.1.tlog
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\GenerateResource.write.3.tlog
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\ResGen.write.1.tlog
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\Orcamento.dll
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\Orcamento.xml
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1.0.1\obj\Debug\Orcamento.pdb
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1 - Fontes Andre\bin\Orcamento.dll
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1 - Fontes Andre\bin\Orcamento.pdb
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1 - Fontes Andre\bin\Orcamento.xml
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1 - Fontes Andre\obj\Debug\Orcamento.vbprojResolveAssemblyReference.cache
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1 - Fontes Andre\obj\Debug\Orcamento.Resources.resources
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1 - Fontes Andre\obj\Debug\Orcamento.vbproj.GenerateResource.Cache
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1 - Fontes Andre\obj\Debug\Orcamento.dll
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1 - Fontes Andre\obj\Debug\Orcamento.xml
+C:\Projetos\Projetos Desenvolvimentos\CRM WEB\Fontes V.1 - Fontes Andre\obj\Debug\Orcamento.pdb

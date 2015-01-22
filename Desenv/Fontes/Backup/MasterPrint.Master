@@ -1,0 +1,19 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPrint.master.vb" Inherits="Orcamento.MasterPrint" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Orçamento</title>
+    <script language="javascript" type="text/javascript" src="include.js">
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmPrint" runat="server" class="formulario">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

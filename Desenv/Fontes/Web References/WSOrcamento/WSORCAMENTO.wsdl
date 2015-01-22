@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:s0="http://10.230.2.42:91/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" targetNamespace="http://10.230.2.42:91/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://10.230.2.42:91/">
+      <s:element name="ALTERAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TOKEN" type="s0:TKNSTRUCT" />
+            <s:element minOccurs="1" maxOccurs="1" name="FICHAORCAMENTO" type="s0:FICHAORCAMENTOSTRUCT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ALTERARRESPONSE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ALTERARRESULT" type="s0:RETSTRUCT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="APROVAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TOKEN" type="s0:TKNSTRUCT" />
+            <s:element minOccurs="1" maxOccurs="1" name="FICHAORCAMENTO" type="s0:FICHAORCAMENTOSTRUCT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="APROVARRESPONSE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="APROVARRESULT" type="s0:RETSTRUCT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CANCELAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TOKEN" type="s0:TKNSTRUCT" />
+            <s:element minOccurs="1" maxOccurs="1" name="NUMEROORCAMENTO" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CANCELARRESPONSE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CANCELARRESULT" type="s0:RETSTRUCT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GERAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TOKEN" type="s0:TKNSTRUCT" />
+            <s:element minOccurs="1" maxOccurs="1" name="FICHAORCAMENTO" type="s0:FICHAORCAMENTOSTRUCT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GERARRESPONSE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GERARRESULT" type="s0:RETSTRUCT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="FICHAORCAMENTOSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CODIGOCLIENTE" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CONDICAOPAGAMENTO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CONTATO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DATASOLICITACAO" type="s:date" />
+          <s:element minOccurs="1" maxOccurs="1" name="DATAVALIDADE" type="s:date" />
+          <s:element minOccurs="1" maxOccurs="1" name="DETALHECONDICAO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EMISSAO" type="s:date" />
+          <s:element minOccurs="0" maxOccurs="1" name="FATURADOPOR" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IDUSUARIO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ITENS" type="s0:ARRAYOFITEMORCAMENTOSTRUCT" />
+          <s:element minOccurs="1" maxOccurs="1" name="LOJACLIENTE" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MOTIVOPRORROGACAO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NUMERO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="OBSERVACAO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="POSSIBILIDADEVENDA" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TIPOFRETE" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TIPOORCAMENTO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TIPOSOLICITACAO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="VALORFRETE" type="s:float" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="RETSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CHAVE" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CODIGO" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="MENSAGEM" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SUCESSO" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TKNSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CONTEUDO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EMPRESAFILIAL" type="s0:EMPFILIALSTRUCT" />
+          <s:element minOccurs="0" maxOccurs="1" name="MENSAGEM" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MODULO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SENHA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SESSIONID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SISTEMA" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ITEMORCAMENTOSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CODIGOPRODUTO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DESCRICAODETALHADA" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PERCENTUALDESCONTO" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="PRAZOENTREGA" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="PRAZOGARANTIA" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="PRECOLISTA" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="PRECOVENDA" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="QUANTIDADE" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="VALORDESCONTO" type="s:float" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="EMPFILIALSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="EMPRESA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FILIAL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FILPAR" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ARRAYOFITEMORCAMENTOSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ITEMORCAMENTOSTRUCT" type="s0:ITEMORCAMENTOSTRUCT" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </types>
+  <message name="ALTERARSOAPIN">
+    <part name="parameters" element="s0:ALTERAR" />
+  </message>
+  <message name="ALTERARSOAPOUT">
+    <part name="parameters" element="s0:ALTERARRESPONSE" />
+  </message>
+  <message name="APROVARSOAPIN">
+    <part name="parameters" element="s0:APROVAR" />
+  </message>
+  <message name="APROVARSOAPOUT">
+    <part name="parameters" element="s0:APROVARRESPONSE" />
+  </message>
+  <message name="CANCELARSOAPIN">
+    <part name="parameters" element="s0:CANCELAR" />
+  </message>
+  <message name="CANCELARSOAPOUT">
+    <part name="parameters" element="s0:CANCELARRESPONSE" />
+  </message>
+  <message name="GERARSOAPIN">
+    <part name="parameters" element="s0:GERAR" />
+  </message>
+  <message name="GERARSOAPOUT">
+    <part name="parameters" element="s0:GERARRESPONSE" />
+  </message>
+  <portType name="WSORCAMENTOSOAP">
+    <operation name="ALTERAR">
+      <documentation>Método de alteração de Orçamento</documentation>
+      <input message="s0:ALTERARSOAPIN" />
+      <output message="s0:ALTERARSOAPOUT" />
+    </operation>
+    <operation name="APROVAR">
+      <documentation>Método de aprovação de Orçamento</documentation>
+      <input message="s0:APROVARSOAPIN" />
+      <output message="s0:APROVARSOAPOUT" />
+    </operation>
+    <operation name="CANCELAR">
+      <documentation>Método de cancelamento de Orçamento</documentation>
+      <input message="s0:CANCELARSOAPIN" />
+      <output message="s0:CANCELARSOAPOUT" />
+    </operation>
+    <operation name="GERAR">
+      <documentation>Método de geração de Orçamento</documentation>
+      <input message="s0:GERARSOAPIN" />
+      <output message="s0:GERARSOAPOUT" />
+    </operation>
+  </portType>
+  <binding name="WSORCAMENTOSOAP" type="s0:WSORCAMENTOSOAP">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="ALTERAR">
+      <soap:operation soapAction="http://10.230.2.42:91/ALTERAR" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="APROVAR">
+      <soap:operation soapAction="http://10.230.2.42:91/APROVAR" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="CANCELAR">
+      <soap:operation soapAction="http://10.230.2.42:91/CANCELAR" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GERAR">
+      <soap:operation soapAction="http://10.230.2.42:91/GERAR" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WSORCAMENTO">
+    <documentation>Serviços de Relacionados ao Orçamento</documentation>
+    <port name="WSORCAMENTOSOAP" binding="s0:WSORCAMENTOSOAP">
+      <soap:address location="http://10.230.2.42:91/WSORCAMENTO.apw" />
+    </port>
+  </service>
+</definitions>

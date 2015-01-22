@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s0="http://192.168.44.42:8000/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" targetNamespace="http://192.168.44.42:8000/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://192.168.44.42:8000/">
+      <s:element name="AUTENTICAR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TOKEN" type="s0:TOKENSTRUCT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AUTENTICARRESPONSE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AUTENTICARRESULT" type="s0:AUTHSTRUCT" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AUTHSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="RETORNO" type="s0:RETORNOSTRUCT" />
+          <s:element minOccurs="0" maxOccurs="1" name="USUARIO" type="s0:USERSTRUCT" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TOKENSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CONTEUDO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EMPRESAFILIAL" type="s0:EMPRESAFILIALSTRUCT" />
+          <s:element minOccurs="0" maxOccurs="1" name="MENSAGEM" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MODULO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SENHA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SESSIONID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="RETORNOSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CHAVE" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="CODIGO" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="MENSAGEM" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SUCESSO" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="USERSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="GRUPOS" type="s0:ARRAYOFSTRING" />
+          <s:element minOccurs="1" maxOccurs="1" name="NOME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TOKEN" type="s0:TOKENSTRUCT" />
+          <s:element minOccurs="1" maxOccurs="1" name="USERID" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="USERNAME" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="EMPRESAFILIALSTRUCT">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="EMPRESA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FILIAL" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ARRAYOFSTRING">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="STRING" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </types>
+  <message name="AUTENTICARSOAPIN">
+    <part name="parameters" element="s0:AUTENTICAR" />
+  </message>
+  <message name="AUTENTICARSOAPOUT">
+    <part name="parameters" element="s0:AUTENTICARRESPONSE" />
+  </message>
+  <portType name="WSUSERMICROSIGASOAP">
+    <operation name="AUTENTICAR">
+      <documentation>Método de autenticação do usuário no Microsiga</documentation>
+      <input message="s0:AUTENTICARSOAPIN" />
+      <output message="s0:AUTENTICARSOAPOUT" />
+    </operation>
+  </portType>
+  <binding name="WSUSERMICROSIGASOAP" type="s0:WSUSERMICROSIGASOAP">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="AUTENTICAR">
+      <soap:operation soapAction="http://192.168.44.42:8000/AUTENTICAR" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WSUSERMICROSIGA">
+    <documentation>Serviços de segurança relacionados ao usuário Microsiga</documentation>
+    <port name="WSUSERMICROSIGASOAP" binding="s0:WSUSERMICROSIGASOAP">
+      <soap:address location="http://192.168.44.42:8000/WSUSERMICROSIGA.apw" />
+    </port>
+  </service>
+</definitions>

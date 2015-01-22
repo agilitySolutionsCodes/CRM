@@ -1,0 +1,2745 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Orcamento
+</name>
+</assembly>
+<members>
+<member name="F:Orcamento.AutoHideButton.pnlAutoHide">
+	<summary>
+pnlAutoHide control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.AutoHideButton.btnAutoHide">
+	<summary>
+btnAutoHide control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.VendedorBox.pnlConteudo">
+	<summary>
+pnlConteudo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.VendedorBox.lblCodigo">
+	<summary>
+lblCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.VendedorBox.lblNome">
+	<summary>
+lblNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.VendedorView.lblFound">
+	<summary>
+Controle lblFound.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.VendedorView.updCabecalho">
+	<summary>
+Controle updCabecalho.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.VendedorView.pnlEdicao">
+	<summary>
+Controle pnlEdicao.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.VendedorView.txtCodigo">
+	<summary>
+Controle txtCodigo.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.VendedorView.btnBusca">
+	<summary>
+Controle btnBusca.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.VendedorView.imgNotFound">
+	<summary>
+Controle imgNotFound.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.VendedorView.lblNome">
+	<summary>
+Controle lblNome.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.VendedorView.oDetalhe">
+	<summary>
+Controle oDetalhe.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="P:Orcamento.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Orcamento.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Orcamento.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:Orcamento.Erro.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Erro.pnlErro">
+	<summary>
+pnlErro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Erro.lblSubTitulo1">
+	<summary>
+lblSubTitulo1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Erro.lblMensagem">
+	<summary>
+lblMensagem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Erro.lblDetalhe">
+	<summary>
+lblDetalhe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Login.lblTitulo">
+	<summary>
+lblTitulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Login.objLogin">
+	<summary>
+objLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Login.oMensagem">
+	<summary>
+oMensagem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Principal.pnlPesquisa">
+	<summary>
+Controle pnlPesquisa.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.lblTitPesquisar">
+	<summary>
+Controle lblTitPesquisar.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.drpTipoPequisa">
+	<summary>
+Controle drpTipoPequisa.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.spanParametros">
+	<summary>
+Controle spanParametros.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.txtParametroPesquisa">
+	<summary>
+Controle txtParametroPesquisa.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.txtEmissao">
+	<summary>
+Controle txtEmissao.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.txtCliente">
+	<summary>
+Controle txtCliente.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.btnBuscar">
+	<summary>
+Controle btnBuscar.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.pnlResultado">
+	<summary>
+Controle pnlResultado.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.pnlItens0">
+	<summary>
+Controle pnlItens0.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.grdItens">
+	<summary>
+Controle grdItens.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.pnlIncluir">
+	<summary>
+Controle pnlIncluir.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.drpFaturadoPor">
+	<summary>
+Controle drpFaturadoPor.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.btnIncluir">
+	<summary>
+Controle btnIncluir.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.oMensagem">
+	<summary>
+Controle oMensagem.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Principal.lnkTreinamento">
+	<summary>
+Controle lnkTreinamento.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.StatusPropostaBox.lblCodigo">
+	<summary>
+lblCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.StatusPropostaBox.lblCodigoPersonalizado">
+	<summary>
+lblCodigoPersonalizado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.StatusPropostaBox.lblDescricao">
+	<summary>
+lblDescricao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.StatusPropostaBox.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.StatusPropostaBox.lblDescricaoPersonalizada">
+	<summary>
+lblDescricaoPersonalizada control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.StatusPropostaBox.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.DetalheConsultaPadrao.updDetalhe">
+	<summary>
+updDetalhe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.DetalheConsultaPadrao.pnlConsulta">
+	<summary>
+pnlConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.DetalheConsultaPadrao.pnlTopBar">
+	<summary>
+pnlTopBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.DetalheConsultaPadrao.imgFechar">
+	<summary>
+imgFechar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.DetalheConsultaPadrao.lblTopBar">
+	<summary>
+lblTopBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.DetalheConsultaPadrao.pnlConteudoConsulta">
+	<summary>
+pnlConteudoConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.DetalheConsultaPadrao.oConsulta">
+	<summary>
+oConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:Orcamento.WSUserAgility.WSUSERAGILITY.#ctor">
+	<remarks/>
+</member><member name="E:Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICARCompleted">
+	<remarks/>
+</member><member name="M:Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICAR(Orcamento.WSUserAgility.TKNSTRUCT)">
+	<remarks/>
+</member><member name="M:Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICARAsync(Orcamento.WSUserAgility.TKNSTRUCT)">
+	<remarks/>
+</member><member name="M:Orcamento.WSUserAgility.WSUSERAGILITY.AUTENTICARAsync(Orcamento.WSUserAgility.TKNSTRUCT,System.Object)">
+	<remarks/>
+</member><member name="M:Orcamento.WSUserAgility.WSUSERAGILITY.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:Orcamento.WSUserAgility.WSUSERAGILITY">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.TKNSTRUCT.CONTEUDO">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.TKNSTRUCT.EMPRESAFILIAL">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.TKNSTRUCT.MENSAGEM">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.TKNSTRUCT.MODULO">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.TKNSTRUCT.SENHA">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.TKNSTRUCT.SESSIONID">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.TKNSTRUCT.SISTEMA">
+	<remarks/>
+</member><member name="T:Orcamento.WSUserAgility.TKNSTRUCT">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.EMPFILIALSTRUCT.EMPRESA">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.EMPFILIALSTRUCT.FILIAL">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.EMPFILIALSTRUCT.FILPAR">
+	<remarks/>
+</member><member name="T:Orcamento.WSUserAgility.EMPFILIALSTRUCT">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.USUARIOSTRUCT.ACESSOMENU">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.USUARIOSTRUCT.EMAIL">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.USUARIOSTRUCT.FILIAIS">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.USUARIOSTRUCT.GRUPOS">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.USUARIOSTRUCT.GRUPOUSUARIO">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.USUARIOSTRUCT.NOME">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.USUARIOSTRUCT.REGIOES">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.USUARIOSTRUCT.TOKEN">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.USUARIOSTRUCT.USERID">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.USUARIOSTRUCT.USERNAME">
+	<remarks/>
+</member><member name="T:Orcamento.WSUserAgility.USUARIOSTRUCT">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.RETSTRUCT.CHAVE">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.RETSTRUCT.CODIGO">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.RETSTRUCT.MENSAGEM">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.RETSTRUCT.SUCESSO">
+	<remarks/>
+</member><member name="T:Orcamento.WSUserAgility.RETSTRUCT">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.VALIDASTRUCT.RETORNO">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.VALIDASTRUCT.USUARIO">
+	<remarks/>
+</member><member name="T:Orcamento.WSUserAgility.VALIDASTRUCT">
+	<remarks/>
+</member><member name="T:Orcamento.WSUserAgility.AUTENTICARCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Orcamento.WSUserAgility.AUTENTICARCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Orcamento.WSUserAgility.AUTENTICARCompletedEventArgs">
+	<remarks/>
+</member><member name="F:Orcamento.BarraUsuario.pnlBarraUsuario">
+	<summary>
+pnlBarraUsuario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.BarraUsuario.lblLocalAtual">
+	<summary>
+lblLocalAtual control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.BarraUsuario.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.BarraUsuario.oLoginName">
+	<summary>
+oLoginName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.BarraUsuario.lblNomeCompleto">
+	<summary>
+lblNomeCompleto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.#ctor">
+	<remarks/>
+</member><member name="E:Orcamento.WSOrcamento.WSORCAMENTO.ALTERARCompleted">
+	<remarks/>
+</member><member name="E:Orcamento.WSOrcamento.WSORCAMENTO.APROVARCompleted">
+	<remarks/>
+</member><member name="E:Orcamento.WSOrcamento.WSORCAMENTO.CANCELARCompleted">
+	<remarks/>
+</member><member name="E:Orcamento.WSOrcamento.WSORCAMENTO.GERARCompleted">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.ALTERAR(Orcamento.WSOrcamento.TKNSTRUCT,Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.ALTERARAsync(Orcamento.WSOrcamento.TKNSTRUCT,Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.ALTERARAsync(Orcamento.WSOrcamento.TKNSTRUCT,Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT,System.Object)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.APROVAR(Orcamento.WSOrcamento.TKNSTRUCT,Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.APROVARAsync(Orcamento.WSOrcamento.TKNSTRUCT,Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.APROVARAsync(Orcamento.WSOrcamento.TKNSTRUCT,Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT,System.Object)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.CANCELAR(Orcamento.WSOrcamento.TKNSTRUCT,System.String)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.CANCELARAsync(Orcamento.WSOrcamento.TKNSTRUCT,System.String)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.CANCELARAsync(Orcamento.WSOrcamento.TKNSTRUCT,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.GERAR(Orcamento.WSOrcamento.TKNSTRUCT,Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.GERARAsync(Orcamento.WSOrcamento.TKNSTRUCT,Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.GERARAsync(Orcamento.WSOrcamento.TKNSTRUCT,Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT,System.Object)">
+	<remarks/>
+</member><member name="M:Orcamento.WSOrcamento.WSORCAMENTO.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.WSORCAMENTO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.TKNSTRUCT.CONTEUDO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.TKNSTRUCT.EMPRESAFILIAL">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.TKNSTRUCT.MENSAGEM">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.TKNSTRUCT.MODULO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.TKNSTRUCT.SENHA">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.TKNSTRUCT.SESSIONID">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.TKNSTRUCT.SISTEMA">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.TKNSTRUCT">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.EMPFILIALSTRUCT.EMPRESA">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.EMPFILIALSTRUCT.FILIAL">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.EMPFILIALSTRUCT.FILPAR">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.EMPFILIALSTRUCT">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.RETSTRUCT.CHAVE">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.RETSTRUCT.CODIGO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.RETSTRUCT.MENSAGEM">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.RETSTRUCT.SUCESSO">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.RETSTRUCT">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.ITEMORCAMENTOSTRUCT.CODIGOPRODUTO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.ITEMORCAMENTOSTRUCT.DESCRICAODETALHADA">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.ITEMORCAMENTOSTRUCT.PERCENTUALDESCONTO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.ITEMORCAMENTOSTRUCT.PRAZOENTREGA">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.ITEMORCAMENTOSTRUCT.PRAZOGARANTIA">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.ITEMORCAMENTOSTRUCT.PRECOLISTA">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.ITEMORCAMENTOSTRUCT.PRECOVENDA">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.ITEMORCAMENTOSTRUCT.QUANTIDADE">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.ITEMORCAMENTOSTRUCT.VALORDESCONTO">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.ITEMORCAMENTOSTRUCT">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.CODIGOCLIENTE">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.CONDICAOPAGAMENTO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.CONTATO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.DATASOLICITACAO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.DATAVALIDADE">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.DETALHECONDICAO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.EMISSAO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.EMISSAOSpecified">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.FATURADOPOR">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.IDUSUARIO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.ITENS">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.LOJACLIENTE">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.MOTIVOPRORROGACAO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.NUMERO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.OBSERVACAO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.POSSIBILIDADEVENDA">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.TIPOFRETE">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.TIPOORCAMENTO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.TIPOSOLICITACAO">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT.VALORFRETE">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.FICHAORCAMENTOSTRUCT">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.ALTERARCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.ALTERARCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.ALTERARCompletedEventArgs">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.APROVARCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.APROVARCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.APROVARCompletedEventArgs">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.CANCELARCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.CANCELARCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.CANCELARCompletedEventArgs">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.GERARCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Orcamento.WSOrcamento.GERARCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Orcamento.WSOrcamento.GERARCompletedEventArgs">
+	<remarks/>
+</member><member name="F:Orcamento.ProdutoBox.pnlProdutoBox">
+	<summary>
+pnlProdutoBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ProdutoBox.lblCodigo">
+	<summary>
+lblCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ProdutoBox.lblNome">
+	<summary>
+lblNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.lblFound">
+	<summary>
+lblFound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.updCabecalho">
+	<summary>
+updCabecalho control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.pnlEdicao">
+	<summary>
+pnlEdicao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.txtCodigo">
+	<summary>
+txtCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.lblBarra">
+	<summary>
+lblBarra control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.txtLoja">
+	<summary>
+txtLoja control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.txtCPF_CNPJ">
+	<summary>
+txtCPF_CNPJ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.txtCnpj_MaskedEditExtender">
+	<summary>
+txtCnpj_MaskedEditExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.txtCnpj_MaskedEditValidator">
+	<summary>
+txtCnpj_MaskedEditValidator control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.btnBusca">
+	<summary>
+btnBusca control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.imgNotFound">
+	<summary>
+imgNotFound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.lblNome">
+	<summary>
+lblNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteView.oDetalhe">
+	<summary>
+oDetalhe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ConsultaPadrao.pnlConsultaPadrao">
+	<summary>
+Controle pnlConsultaPadrao.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ConsultaPadrao.pnlParametros">
+	<summary>
+Controle pnlParametros.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ConsultaPadrao.drpTipoPesquisa">
+	<summary>
+Controle drpTipoPesquisa.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ConsultaPadrao.txtParametroPesquisa">
+	<summary>
+Controle txtParametroPesquisa.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ConsultaPadrao.btnPesquisar">
+	<summary>
+Controle btnPesquisar.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ConsultaPadrao.oMensagem">
+	<summary>
+Controle oMensagem.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ConsultaPadrao.grdPesquisar">
+	<summary>
+Controle grdPesquisar.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.Mensagem.pnlMensagem">
+	<summary>
+pnlMensagem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Mensagem.imgIcone">
+	<summary>
+imgIcone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Mensagem.lblMensagem">
+	<summary>
+lblMensagem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.CondicaoPagamentoView.lblFound">
+	<summary>
+lblFound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.CondicaoPagamentoView.updCabecalho">
+	<summary>
+updCabecalho control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.CondicaoPagamentoView.pnlVisualizacao">
+	<summary>
+pnlVisualizacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.CondicaoPagamentoView.txtCodigo">
+	<summary>
+txtCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.CondicaoPagamentoView.btnBusca">
+	<summary>
+btnBusca control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.CondicaoPagamentoView.imgNotFound">
+	<summary>
+imgNotFound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.CondicaoPagamentoView.lblNome">
+	<summary>
+lblNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.CondicaoPagamentoView.lblDetalhe">
+	<summary>
+lblDetalhe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.CondicaoPagamentoView.txtDetalhe">
+	<summary>
+txtDetalhe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.CondicaoPagamentoView.oDetalhe">
+	<summary>
+oDetalhe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.lblFound">
+	<summary>
+Controle lblFound.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.updCabecalho">
+	<summary>
+Controle updCabecalho.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.lblClass1">
+	<summary>
+Controle lblClass1.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.lblPrecoVenda1">
+	<summary>
+Controle lblPrecoVenda1.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.pnlEdicao">
+	<summary>
+Controle pnlEdicao.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.txtCodigo">
+	<summary>
+Controle txtCodigo.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.btnBusca">
+	<summary>
+Controle btnBusca.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.imgNotFound">
+	<summary>
+Controle imgNotFound.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.txtNome2">
+	<summary>
+Controle txtNome2.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.pnlVisualizacao">
+	<summary>
+Controle pnlVisualizacao.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.lblCodigo">
+	<summary>
+Controle lblCodigo.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.lblNome">
+	<summary>
+Controle lblNome.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.ProdutoView.oDetalhe">
+	<summary>
+Controle oDetalhe.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.NumberBox.txtNumberBox">
+	<summary>
+txtNumberBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.NumberBox.txtNumberBox_NumericUpDownExtender">
+	<summary>
+txtNumberBox_NumericUpDownExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.NumberBox.txtNumberBox_FilteredTextBoxExtender">
+	<summary>
+txtNumberBox_FilteredTextBoxExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.NumberBox.spanBotoes">
+	<summary>
+spanBotoes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.MasterPage.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.MasterPage.frmPrincipal">
+	<summary>
+frmPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.MasterPage.oScriptManager">
+	<summary>
+oScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.MasterPage.objLogout">
+	<summary>
+objLogout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.MasterPage.lnkLogo">
+	<summary>
+lnkLogo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.MasterPage.cMaster">
+	<summary>
+cMaster control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:Orcamento.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Orcamento.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Orcamento.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Orcamento.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Orcamento.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:Orcamento.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Orcamento.TestPage.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteBox.pnlConteudo">
+	<summary>
+pnlConteudo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteBox.lblCodigo">
+	<summary>
+lblCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteBox.lblBarra">
+	<summary>
+lblBarra control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteBox.lblLoja">
+	<summary>
+lblLoja control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteBox.lblCPF_CNPJ">
+	<summary>
+lblCPF_CNPJ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.ClienteBox.lblNome">
+	<summary>
+lblNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:Orcamento.Genericas.Validadores.isCPF(System.String)">
+	<summary>
+ Verifica se o valor informado é ou não é um cpf válido
+ </summary>
+	<param name="texto">Recebe o número do CPF com ou sem formatação</param>
+	<returns>Retorna se o cpf é válido ou inválido</returns>
+	<remarks>
+ Fórmula para cálculo de dígitos verificadores do CPF válido
+ Descrição
+ No Brasil existe o CPF (Cadastro de Pessoas Físicas) que serve para identificar cada indivíduo no país. O número do CPF é composto de 11 dígitos, sendo os dois últimos os dígitos de verificação. A fórmula para verificar a validade do número do CPF é simples e é explicada abaixo:
+
+ Vamos tomar como exemplo o número 123.456.789-09
+
+ 1º Dígito Verificador
+ Primeiro calculamos a soma da multiplicação dos 9 primeiros dígitos por 10, 9, 8, ... , 3, 2, respectivamente. Ou seja
+ Soma = (1*10) + (2*9) + ... + (8*3) + (9*2)
+
+ Em seguida, dividimos e multiplicamos por 11. (Nota: Ao multiplicarmos utilizamos o valor inteiro da divisão).
+ Valor = (Soma/11) * 11
+
+ Por fim, subtraímos Valor de Soma.
+ Resultado = Soma - Valor
+
+ Note que acabamos de realizar o módulo de Soma e 11. As duas operações anteriores podem ser substituídas por Resultado = Soma módulo 11. 
+
+ Agora analisamos Resultado:
+ •	Se Resultado for igual à 1 ou à 0, então o 1º dígito verificador é 0.
+ •	Caso contrário, o 1º dígito verificador é o resultado da subtração de Resultado de 11.
+ 
+ 2º Dígito Verificador
+ Primeiro calculamos a soma da multiplicação dos 9 primeiros dígitos por 11, 10, 9, ... , 4, 3, respectivamente e em seguida somamos com (Digito1*2), sendo que Digito1 é o valor encontrado para o 1º dígito verificador. Ou seja
+ Soma = (1*11) + (2*10) + ... + (8*4) + (9*3) + (Digito1*2)
+
+ O resto é semelhante ao que foi feito anteriormente. Dividimos e multiplicamos por 11. (Nota: Ao multiplicarmos utilizamos o valor inteiro da divisão).
+ Valor = (Soma/11) * 11
+
+ Por fim, subtraímos Valor de Soma.
+ Resultado = Soma - Valor
+
+ Agora analisamos Resultado:
+ •	Se Resultado for igual à 1 ou à 0, então o 2º dígito verificador é 0.
+ •	Caso contrário, o 2º dígito verificador é o resultado da subtração de Resultado de 11.
+ No nosso exemplo (123.456.789-09) o número é válido.
+ </remarks>
+</member><member name="M:Orcamento.Genericas.Validadores.isCNPJ(System.String)">
+	<summary>
+ Verifica se o valor informado é ou não é um CNPJ válido
+ </summary>
+	<param name="texto">Recebe o número do CNPJ com ou sem formatação</param>
+	<returns>Retorna se o cnpj é válido ou inválido</returns>
+	<remarks></remarks>
+</member><member name="M:Orcamento.Genericas.Validadores.isInscricaoEstadual(System.String,System.String)">
+	<summary>
+ Verifica se o valor informado é uma inscrição estadual válida de acordo com o seu respectivo estado
+ </summary>
+	<param name="pUF">Recebe a sigla do estado</param>
+	<param name="pInscr">Recebe o valor da inscrição estadual</param>
+	<returns>Retorna se a inscrição estadual é válido ou inválido</returns>
+	<remarks></remarks>
+</member><member name="T:Orcamento.Genericas.Validadores">
+	<summary>
+ Obtem regras de negócio de itens que são imprescindíveis em um cadastro
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Orcamento.Genericas.Formatadores.FormatarCNPJ(System.String)">
+	<summary>
+ Essa função recebe o número do CNPJ e retorna o valor formatado
+ </summary>
+	<param name="texto"></param>
+	<returns>Retorna o número do CNPJ formatado</returns>
+</member><member name="M:Orcamento.Genericas.Formatadores.FormatarCNAE(System.String)">
+	<summary>
+ Essa função recebe o número do CNAE e retorna o valor formatado
+ </summary>
+	<param name="texto"></param>
+	<returns>Retorna o número do CNAE formatado</returns>
+	<remarks></remarks>
+</member><member name="M:Orcamento.Genericas.Formatadores.FormatarCEP(System.String)">
+	<summary>
+ Essa função recebe o número do CEP e retorna o valor formatado
+ </summary>
+	<param name="texto"></param>
+	<returns>Retorna o número do CEP dormatado</returns>
+	<remarks></remarks>
+</member><member name="F:Orcamento.Logotipos.frm">
+	<summary>
+frm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.imgLogotipo">
+	<summary>
+imgLogotipo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.imgLogoIntermed">
+	<summary>
+imgLogoIntermed control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.lblCNPJ">
+	<summary>
+lblCNPJ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.lblCNPJIntermed">
+	<summary>
+lblCNPJIntermed control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image2">
+	<summary>
+Image2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image3">
+	<summary>
+Image3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image4">
+	<summary>
+Image4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image5">
+	<summary>
+Image5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image6">
+	<summary>
+Image6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image7">
+	<summary>
+Image7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image8">
+	<summary>
+Image8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label7">
+	<summary>
+Label7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label8">
+	<summary>
+Label8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image9">
+	<summary>
+Image9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image10">
+	<summary>
+Image10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label9">
+	<summary>
+Label9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label10">
+	<summary>
+Label10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image11">
+	<summary>
+Image11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image12">
+	<summary>
+Image12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label11">
+	<summary>
+Label11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label12">
+	<summary>
+Label12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image13">
+	<summary>
+Image13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image14">
+	<summary>
+Image14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label13">
+	<summary>
+Label13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label14">
+	<summary>
+Label14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image15">
+	<summary>
+Image15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image16">
+	<summary>
+Image16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label15">
+	<summary>
+Label15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label16">
+	<summary>
+Label16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image17">
+	<summary>
+Image17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image18">
+	<summary>
+Image18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label17">
+	<summary>
+Label17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label18">
+	<summary>
+Label18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image19">
+	<summary>
+Image19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image20">
+	<summary>
+Image20 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label19">
+	<summary>
+Label19 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label20">
+	<summary>
+Label20 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image21">
+	<summary>
+Image21 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image22">
+	<summary>
+Image22 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label21">
+	<summary>
+Label21 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label22">
+	<summary>
+Label22 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image29">
+	<summary>
+Image29 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image30">
+	<summary>
+Image30 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label29">
+	<summary>
+Label29 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label30">
+	<summary>
+Label30 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image31">
+	<summary>
+Image31 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image32">
+	<summary>
+Image32 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label31">
+	<summary>
+Label31 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label32">
+	<summary>
+Label32 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image23">
+	<summary>
+Image23 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Image24">
+	<summary>
+Image24 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label23">
+	<summary>
+Label23 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Logotipos.Label24">
+	<summary>
+Label24 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.MasterPrint.head">
+	<summary>
+Controle head.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.MasterPrint.frmPrint">
+	<summary>
+Controle frmPrint.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.MasterPrint.ContentPlaceHolder1">
+	<summary>
+Controle ContentPlaceHolder1.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.imgLogotipo">
+	<summary>
+imgLogotipo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.imgLogoIntermed">
+	<summary>
+imgLogoIntermed control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblCNPJ">
+	<summary>
+lblCNPJ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblCNPJIntermed">
+	<summary>
+lblCNPJIntermed control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.pnlCorpo">
+	<summary>
+pnlCorpo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblProposta">
+	<summary>
+lblProposta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblLocal">
+	<summary>
+lblLocal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblDataEmissao">
+	<summary>
+lblDataEmissao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblNomeCliente">
+	<summary>
+lblNomeCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblCnpjCliente">
+	<summary>
+lblCnpjCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblEnderecoCliente">
+	<summary>
+lblEnderecoCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblMunicipioCliente">
+	<summary>
+lblMunicipioCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblUFCliente">
+	<summary>
+lblUFCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblTitContato">
+	<summary>
+lblTitContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblContato">
+	<summary>
+lblContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblSaudacao">
+	<summary>
+lblSaudacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.grdItens">
+	<summary>
+grdItens control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblCondicao">
+	<summary>
+lblCondicao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblTitDetCondicao">
+	<summary>
+lblTitDetCondicao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblDetCondicao">
+	<summary>
+lblDetCondicao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblFrete">
+	<summary>
+lblFrete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblValidade">
+	<summary>
+lblValidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblFaturadoPeloRepresentante">
+	<summary>
+lblFaturadoPeloRepresentante control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblTextoObservacao">
+	<summary>
+lblTextoObservacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.pnlFaturadoPelaIntermed">
+	<summary>
+pnlFaturadoPelaIntermed control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblFaturadoPelaIntermed">
+	<summary>
+lblFaturadoPelaIntermed control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.Label8">
+	<summary>
+Label8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.Label9">
+	<summary>
+Label9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblRodape">
+	<summary>
+lblRodape control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.grdDetalhe">
+	<summary>
+grdDetalhe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.pnlAssintura">
+	<summary>
+pnlAssintura control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblRazaoSocial2">
+	<summary>
+lblRazaoSocial2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblTel">
+	<summary>
+lblTel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblTelefone2">
+	<summary>
+lblTelefone2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblTFax2">
+	<summary>
+lblTFax2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblFax2">
+	<summary>
+lblFax2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblEmail">
+	<summary>
+lblEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblRazaoSocial">
+	<summary>
+lblRazaoSocial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.lblRodape1">
+	<summary>
+lblRodape1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.pnlBotoes">
+	<summary>
+pnlBotoes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.RptProposta.btnVoltar">
+	<summary>
+btnVoltar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:Orcamento.WSUtilAgility.WSUTILAGILITY.#ctor">
+	<remarks/>
+</member><member name="E:Orcamento.WSUtilAgility.WSUTILAGILITY.WEBGETMVCompleted">
+	<remarks/>
+</member><member name="M:Orcamento.WSUtilAgility.WSUTILAGILITY.WEBGETMV(Orcamento.WSUtilAgility.TKNSTRUCT,System.String)">
+	<remarks/>
+</member><member name="M:Orcamento.WSUtilAgility.WSUTILAGILITY.WEBGETMVAsync(Orcamento.WSUtilAgility.TKNSTRUCT,System.String)">
+	<remarks/>
+</member><member name="M:Orcamento.WSUtilAgility.WSUTILAGILITY.WEBGETMVAsync(Orcamento.WSUtilAgility.TKNSTRUCT,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:Orcamento.WSUtilAgility.WSUTILAGILITY.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:Orcamento.WSUtilAgility.WSUTILAGILITY">
+	<remarks/>
+</member><member name="P:Orcamento.WSUtilAgility.TKNSTRUCT.CONTEUDO">
+	<remarks/>
+</member><member name="P:Orcamento.WSUtilAgility.TKNSTRUCT.EMPRESAFILIAL">
+	<remarks/>
+</member><member name="P:Orcamento.WSUtilAgility.TKNSTRUCT.MENSAGEM">
+	<remarks/>
+</member><member name="P:Orcamento.WSUtilAgility.TKNSTRUCT.MODULO">
+	<remarks/>
+</member><member name="P:Orcamento.WSUtilAgility.TKNSTRUCT.SENHA">
+	<remarks/>
+</member><member name="P:Orcamento.WSUtilAgility.TKNSTRUCT.SESSIONID">
+	<remarks/>
+</member><member name="P:Orcamento.WSUtilAgility.TKNSTRUCT.SISTEMA">
+	<remarks/>
+</member><member name="T:Orcamento.WSUtilAgility.TKNSTRUCT">
+	<remarks/>
+</member><member name="P:Orcamento.WSUtilAgility.EMPFILIALSTRUCT.EMPRESA">
+	<remarks/>
+</member><member name="P:Orcamento.WSUtilAgility.EMPFILIALSTRUCT.FILIAL">
+	<remarks/>
+</member><member name="P:Orcamento.WSUtilAgility.EMPFILIALSTRUCT.FILPAR">
+	<remarks/>
+</member><member name="T:Orcamento.WSUtilAgility.EMPFILIALSTRUCT">
+	<remarks/>
+</member><member name="T:Orcamento.WSUtilAgility.WEBGETMVCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Orcamento.WSUtilAgility.WEBGETMVCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Orcamento.WSUtilAgility.WEBGETMVCompletedEventArgs">
+	<remarks/>
+</member><member name="F:Orcamento.DetalheProduto.imgDescricao">
+	<summary>
+Controle imgDescricao.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.DetalheProduto.pnlDescricao">
+	<summary>
+Controle pnlDescricao.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.DetalheProduto.pnlTopBar">
+	<summary>
+Controle pnlTopBar.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.DetalheProduto.imgFechar">
+	<summary>
+Controle imgFechar.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.DetalheProduto.lblTopBar">
+	<summary>
+Controle lblTopBar.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.DetalheProduto.txtDescricao">
+	<summary>
+Controle txtDescricao.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.DetalheProduto.btnConfirmar">
+	<summary>
+Controle btnConfirmar.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.DateBox.txtDateBox">
+	<summary>
+txtDateBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.DateBox.txtDateBox_MaskedEditExtender">
+	<summary>
+txtDateBox_MaskedEditExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.DateBox.txtDateBox_CalendarExtender">
+	<summary>
+txtDateBox_CalendarExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.NFBox.lblNota">
+	<summary>
+lblNota control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.NFBox.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.NFBox.lblSerie">
+	<summary>
+lblSerie control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.hdnFaturadoPor">
+	<summary>
+hdnFaturadoPor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.pnlCabecalho">
+	<summary>
+pnlCabecalho control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTitNumero">
+	<summary>
+lblTitNumero control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblNumero">
+	<summary>
+lblNumero control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.oStatusProposta">
+	<summary>
+oStatusProposta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTitEmissao">
+	<summary>
+lblTitEmissao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblEmissao">
+	<summary>
+lblEmissao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTitValidade">
+	<summary>
+lblTitValidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.txtDataValidade">
+	<summary>
+txtDataValidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.btnProrrogar">
+	<summary>
+btnProrrogar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.pnlMotivoProrrogacao">
+	<summary>
+pnlMotivoProrrogacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblObservacaoDataValidade">
+	<summary>
+lblObservacaoDataValidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.ddlProrrogacao">
+	<summary>
+ddlProrrogacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTitPossibilidade">
+	<summary>
+lblTitPossibilidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.drpPossibilidadeVenda">
+	<summary>
+drpPossibilidadeVenda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTitTipoOrcamento">
+	<summary>
+lblTitTipoOrcamento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.drpTipoOrcamento">
+	<summary>
+drpTipoOrcamento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTitCondicao">
+	<summary>
+lblTitCondicao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.oCondicaoPagamento">
+	<summary>
+oCondicaoPagamento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblDetalhe">
+	<summary>
+lblDetalhe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.txtDetalheCodicao1">
+	<summary>
+txtDetalheCodicao1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTitTipoFrete">
+	<summary>
+lblTitTipoFrete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.radTipoFrete">
+	<summary>
+radTipoFrete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTitCliente">
+	<summary>
+lblTitCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.spanParametros">
+	<summary>
+spanParametros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.txtCliente">
+	<summary>
+txtCliente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTitContato">
+	<summary>
+lblTitContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.txtContato">
+	<summary>
+txtContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTitRevendedor">
+	<summary>
+lblTitRevendedor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.txtVendedor">
+	<summary>
+txtVendedor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTitObservacao">
+	<summary>
+lblTitObservacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.txtObservacao">
+	<summary>
+txtObservacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.pnlItens">
+	<summary>
+pnlItens control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.grdItens">
+	<summary>
+grdItens control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.pnlTotais">
+	<summary>
+pnlTotais control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.Label7">
+	<summary>
+Label7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.lblTotalProposta">
+	<summary>
+lblTotalProposta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.pnlBotoes">
+	<summary>
+pnlBotoes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.btnAlterar">
+	<summary>
+btnAlterar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.btnSalvar">
+	<summary>
+btnSalvar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.btnImprimir">
+	<summary>
+btnImprimir control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.btnAprovar">
+	<summary>
+btnAprovar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.btnVoltar">
+	<summary>
+btnVoltar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.pnlMensagm">
+	<summary>
+pnlMensagm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.Proposta.oMensagem">
+	<summary>
+oMensagem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.DescricaoDetalhada.lblDescricaoDetalhada">
+	<summary>
+lblDescricaoDetalhada control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Orcamento.SubMaster.oBarraUsuario">
+	<summary>
+Controle oBarraUsuario.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member><member name="F:Orcamento.SubMaster.SubMaster">
+	<summary>
+Controle SubMaster.
+</summary>
+	<remarks>
+Campo gerado automaticamente.
+Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+</remarks>
+</member>
+</members>
+</doc>
